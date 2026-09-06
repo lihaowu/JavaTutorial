@@ -1,42 +1,42 @@
-## Ç°ÑÔ
+## å‰è¨€
 
-ÔÚÎ¢·şÎñÏµÍ³¼Ü¹¹ÖĞ£¬·şÎñµÄ¼à¿ØÊÇ±Ø²»¿ÉÉÙµÄ¡£Ä¿Ç°´ó¶àÊıÎ¢·şÎñÓ¦ÓÃÓÖÊÇ»ùÓÚSpring CloudÏµÁĞ£¬Ò²¿ÉÒÔËµÊÇ»ùÓÚSpring BootÏµÁĞµÄ¡£´ËÊ±Ê¹ÓÃSpring Boot ActuatorÀ´½øĞĞÎ¢·şÎñµÄ¼à¿Ø£¬²»½ö¹¦ÄÜÈ«Ãæ£¬¶øÇÒ·Ç³£·½±ã¡£
+åœ¨å¾®æœåŠ¡ç³»ç»Ÿæ¶æ„ä¸­ï¼ŒæœåŠ¡çš„ç›‘æ§æ˜¯å¿…ä¸å¯å°‘çš„ã€‚ç›®å‰å¤§å¤šæ•°å¾®æœåŠ¡åº”ç”¨åˆæ˜¯åŸºäºSpring Cloudç³»åˆ—ï¼Œä¹Ÿå¯ä»¥è¯´æ˜¯åŸºäºSpring Bootç³»åˆ—çš„ã€‚æ­¤æ—¶ä½¿ç”¨Spring Boot Actuatoræ¥è¿›è¡Œå¾®æœåŠ¡çš„ç›‘æ§ï¼Œä¸ä»…åŠŸèƒ½å…¨é¢ï¼Œè€Œä¸”éå¸¸æ–¹ä¾¿ã€‚
 
-ÔÚÉÏÆªÎÄÕÂ¡¶[Spring Boot Actuator¼¯³É£¬ÄÑµÄÊÇÁé»îÔËÓÃ£¡](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FBaNQWygQb8UXxktrXetOcw "https://mp.weixin.qq.com/s/BaNQWygQb8UXxktrXetOcw")¡·ÖĞÎÒÃÇÒÑ¾­½éÉÜÁËÈçºÎ½«Actuator¼¯³Éµ½Spring BootÏîÄ¿ÖĞ£¬²¢ÇÒ½éÉÜÁËÈçºÎ×Ô¶¨ÒåEndpoint£¨¶Ëµã£©¡£ÓĞÅóÓÑÁôÑÔËµ²»¹»ÉîÈë£¬ÄÇÃ´£¬±¾ÆªÎÄÕÂÄØ£¬ÎÒÃÇ½«½éÉÜActuatorÔ­Éú¶ËµãµÄ¹¦ÄÜ¼°»ù±¾Ê¹ÓÃ³¡¾°¡£
+åœ¨ä¸Šç¯‡æ–‡ç« ã€Š[Spring Boot Actuatoré›†æˆï¼Œéš¾çš„æ˜¯çµæ´»è¿ç”¨ï¼](https://link.juejin.cn?target=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2FBaNQWygQb8UXxktrXetOcw "https://mp.weixin.qq.com/s/BaNQWygQb8UXxktrXetOcw")ã€‹ä¸­æˆ‘ä»¬å·²ç»ä»‹ç»äº†å¦‚ä½•å°†Actuatoré›†æˆåˆ°Spring Booté¡¹ç›®ä¸­ï¼Œå¹¶ä¸”ä»‹ç»äº†å¦‚ä½•è‡ªå®šä¹‰Endpointï¼ˆç«¯ç‚¹ï¼‰ã€‚æœ‰æœ‹å‹ç•™è¨€è¯´ä¸å¤Ÿæ·±å…¥ï¼Œé‚£ä¹ˆï¼Œæœ¬ç¯‡æ–‡ç« å‘¢ï¼Œæˆ‘ä»¬å°†ä»‹ç»ActuatoråŸç”Ÿç«¯ç‚¹çš„åŠŸèƒ½åŠåŸºæœ¬ä½¿ç”¨åœºæ™¯ã€‚
 
-## Endpoints ½éÉÜ
+## Endpoints ä»‹ç»
 
-ActuatorÖĞËùÎ½µÄ Endpoints £¨·­ÒëÎª¶Ëµã£©Ìá¹©ÁËÍâ²¿À´ÓëÓ¦ÓÃ³ÌĞò½øĞĞ·ÃÎÊºÍ½»»¥µÄ¹¦ÄÜ¡£ ±ÈÈçËµ/health¶ËµãÌá¹©ÁËÓ¦ÓÃ½¡¿µÇé¿öµÄĞÅÏ¢£¬metrics ¶ËµãÌá¹©ÁËÓ¦ÓÃ³ÌĞòµÄÖ¸±ê£¨JVM ÄÚ´æÊ¹ÓÃ¡¢ÏµÍ³CPUÊ¹ÓÃµÈ£©ĞÅÏ¢¡£
+Actuatorä¸­æ‰€è°“çš„ Endpoints ï¼ˆç¿»è¯‘ä¸ºç«¯ç‚¹ï¼‰æä¾›äº†å¤–éƒ¨æ¥ä¸åº”ç”¨ç¨‹åºè¿›è¡Œè®¿é—®å’Œäº¤äº’çš„åŠŸèƒ½ã€‚ æ¯”å¦‚è¯´/healthç«¯ç‚¹æä¾›äº†åº”ç”¨å¥åº·æƒ…å†µçš„ä¿¡æ¯ï¼Œmetrics ç«¯ç‚¹æä¾›äº†åº”ç”¨ç¨‹åºçš„æŒ‡æ ‡ï¼ˆJVM å†…å­˜ä½¿ç”¨ã€ç³»ç»ŸCPUä½¿ç”¨ç­‰ï¼‰ä¿¡æ¯ã€‚
 
-ActuatorÔ­ÉúµÄ¶Ëµã¿É·ÖÎªÈı´óÀà£º
+ActuatoråŸç”Ÿçš„ç«¯ç‚¹å¯åˆ†ä¸ºä¸‰å¤§ç±»ï¼š
 
-*   Ó¦ÓÃÅäÖÃÀà£º»ñÈ¡Ó¦ÓÃ³ÌĞòÖĞ¼ÓÔØµÄÓ¦ÓÃÅäÖÃ¡¢»·¾³±äÁ¿¡¢×Ô¶¯»¯ÅäÖÃ±¨¸æµÈÓëSpring BootÓ¦ÓÃÃÜÇĞÏà¹ØµÄÅäÖÃÀàĞÅÏ¢¡£
-*   ¶ÈÁ¿Ö¸±êÀà£º»ñÈ¡Ó¦ÓÃ³ÌĞòÔËĞĞ¹ı³ÌÖĞÓÃÓÚ¼à¿ØµÄ¶ÈÁ¿Ö¸±ê£¬±ÈÈç£ºÄÚ´æĞÅÏ¢¡¢Ïß³Ì³ØĞÅÏ¢¡¢HTTPÇëÇóÍ³¼ÆµÈ¡£
-*   ²Ù×÷¿ØÖÆÀà£ºÌá¹©ÁË¶ÔÓ¦ÓÃµÄ¹Ø±ÕµÈ²Ù×÷Àà¹¦ÄÜ¡£
+*   åº”ç”¨é…ç½®ç±»ï¼šè·å–åº”ç”¨ç¨‹åºä¸­åŠ è½½çš„åº”ç”¨é…ç½®ã€ç¯å¢ƒå˜é‡ã€è‡ªåŠ¨åŒ–é…ç½®æŠ¥å‘Šç­‰ä¸Spring Bootåº”ç”¨å¯†åˆ‡ç›¸å…³çš„é…ç½®ç±»ä¿¡æ¯ã€‚
+*   åº¦é‡æŒ‡æ ‡ç±»ï¼šè·å–åº”ç”¨ç¨‹åºè¿è¡Œè¿‡ç¨‹ä¸­ç”¨äºç›‘æ§çš„åº¦é‡æŒ‡æ ‡ï¼Œæ¯”å¦‚ï¼šå†…å­˜ä¿¡æ¯ã€çº¿ç¨‹æ± ä¿¡æ¯ã€HTTPè¯·æ±‚ç»Ÿè®¡ç­‰ã€‚
+*   æ“ä½œæ§åˆ¶ç±»ï¼šæä¾›äº†å¯¹åº”ç”¨çš„å…³é—­ç­‰æ“ä½œç±»åŠŸèƒ½ã€‚
 
-²»Í¬°æ±¾µÄActuatorÌá¹©µÄÔ­Éú¶ËµãÓĞËù³öÈë£¬ÔÚÊ¹ÓÃµÄ¹ı³ÌÖĞ×îºÃÒÔËùÊ¹ÓÃ°æ±¾µÄ¹Ù·½ÎÄµµÎª×¼¡£Í¬Ê±£¬Ã¿¸öÔ­ÉúµÄ¶Ëµã¶¼¿ÉÒÔÍ¨¹ıÅäÖÃÀ´µ¥¶ÀµÄ½ûÓÃ»òÆôÓÃ¡£
+ä¸åŒç‰ˆæœ¬çš„Actuatoræä¾›çš„åŸç”Ÿç«¯ç‚¹æœ‰æ‰€å‡ºå…¥ï¼Œåœ¨ä½¿ç”¨çš„è¿‡ç¨‹ä¸­æœ€å¥½ä»¥æ‰€ä½¿ç”¨ç‰ˆæœ¬çš„å®˜æ–¹æ–‡æ¡£ä¸ºå‡†ã€‚åŒæ—¶ï¼Œæ¯ä¸ªåŸç”Ÿçš„ç«¯ç‚¹éƒ½å¯ä»¥é€šè¿‡é…ç½®æ¥å•ç‹¬çš„ç¦ç”¨æˆ–å¯ç”¨ã€‚
 
-¶øÔÚActuator 2.x ÖĞÄ¬ÈÏ¶ËµãÔö¼ÓÁË/actuatorÇ°×º£¬Í¬Ê±Ä¬ÈÏÖ»±©Â¶µÄÁ½¸ö¶ËµãÎª/actuator/healthºÍ /actuator/info¡£¹ØÓÚ¶Ëµã±©Â¶µÄÅäÖÃ£¬¿É²Î¿¼Ç°Ò»ÆªÎÄÕÂ¡£ÏÂÃæ»ùÓÚSpring Boot 2.2.2.RELEASE°æ±¾À´ÖØµã½²½âÃ¿¸ö¶ËµãµÄ¹¦ÄÜºÍÓ¦ÓÃ³¡¾°¡£
+è€Œåœ¨Actuator 2.x ä¸­é»˜è®¤ç«¯ç‚¹å¢åŠ äº†/actuatorå‰ç¼€ï¼ŒåŒæ—¶é»˜è®¤åªæš´éœ²çš„ä¸¤ä¸ªç«¯ç‚¹ä¸º/actuator/healthå’Œ /actuator/infoã€‚å…³äºç«¯ç‚¹æš´éœ²çš„é…ç½®ï¼Œå¯å‚è€ƒå‰ä¸€ç¯‡æ–‡ç« ã€‚ä¸‹é¢åŸºäºSpring Boot 2.2.2.RELEASEç‰ˆæœ¬æ¥é‡ç‚¹è®²è§£æ¯ä¸ªç«¯ç‚¹çš„åŠŸèƒ½å’Œåº”ç”¨åœºæ™¯ã€‚
 
-## actuator¶Ëµã
+## actuatorç«¯ç‚¹
 
-Actuator 2.xĞÂÔöµÄÄ¬ÈÏ¶Ëµã£¬ÓÃÓÚÕ¹Ê¾Ä¿Ç°Ó¦ÓÃÖĞ±©Â¶³öÀ´µÄ¶Ëµã»ã×Ü£¬Äã¿ÉÒÔÀí½âÎª¿ÉÓÃ¶ËµãµÄÄ¿Â¼¡£
+Actuator 2.xæ–°å¢çš„é»˜è®¤ç«¯ç‚¹ï¼Œç”¨äºå±•ç¤ºç›®å‰åº”ç”¨ä¸­æš´éœ²å‡ºæ¥çš„ç«¯ç‚¹æ±‡æ€»ï¼Œä½ å¯ä»¥ç†è§£ä¸ºå¯ç”¨ç«¯ç‚¹çš„ç›®å½•ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator "http://localhost:8080/actuator") £¬¶ÔÓ¦Õ¹Ê¾½á¹ûÈçÏÂÍ¼£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator "http://localhost:8080/actuator") ï¼Œå¯¹åº”å±•ç¤ºç»“æœå¦‚ä¸‹å›¾ï¼š
 
 ![image-20230530233537559](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233537559.png)
 
-ÉÏÊöÖ»Õ¹Ê¾ÁËÒ»²¿·ÖµÄ¶Ëµã£¬·µ»Ø½á¹ûÎª£¬ÕâÀï²ÉÓÃÁËä¯ÀÀÆ÷µÄ²å¼ş-Handler½øĞĞÁË¸ñÊ½ÃÀ»¯¡£Í¨¹ıactuator¿ÉÒÔÖ±¹ÛµÄ¿´³öÄ¿Ç°¿ª·ÅÁËÄÄĞ©¶Ëµã£¬ÒÔ¼°ÕâĞ©¶ËµãµÄÃû³ÆºÍÇëÇóÂ·¾¶¡£
+ä¸Šè¿°åªå±•ç¤ºäº†ä¸€éƒ¨åˆ†çš„ç«¯ç‚¹ï¼Œè¿”å›ç»“æœä¸ºï¼Œè¿™é‡Œé‡‡ç”¨äº†æµè§ˆå™¨çš„æ’ä»¶-Handlerè¿›è¡Œäº†æ ¼å¼ç¾åŒ–ã€‚é€šè¿‡actuatorå¯ä»¥ç›´è§‚çš„çœ‹å‡ºç›®å‰å¼€æ”¾äº†å“ªäº›ç«¯ç‚¹ï¼Œä»¥åŠè¿™äº›ç«¯ç‚¹çš„åç§°å’Œè¯·æ±‚è·¯å¾„ã€‚
 
-ÏÂÃæÎÒÃÇ¾Í°´ÕÕÏÔÊ¾actuator¶ËµãÕ¹Ê¾µÄÁĞ±íÖğÒ»½éÉÜ¡£
+ä¸‹é¢æˆ‘ä»¬å°±æŒ‰ç…§æ˜¾ç¤ºactuatorç«¯ç‚¹å±•ç¤ºçš„åˆ—è¡¨é€ä¸€ä»‹ç»ã€‚
 
-## auditevents¶Ëµã
+## auditeventsç«¯ç‚¹
 
-auditevents¶ËµãÓÃÓÚÏÔÊ¾Ó¦ÓÃ±©Â¶µÄÉó¼ÆÊÂ¼ş (±ÈÈçÈÏÖ¤½øÈë¡¢¶©µ¥Ê§°Ü)£¬¼´Ê¹ÎÒÃÇ´ò¿ªÁËËùÓĞ¶Ëµã£¬Ä¬ÈÏÇé¿öÏÂÒ²ÊÇ¿´²»µ½Õâ¸ö¶ËµãµÄ¡£ÒòÎªÊ¹ÓÃËüµÄÇ°ÌáÊÇĞèÒªÔÚSpringÈİÆ÷ÖĞ´æÔÚÒ»¸öÀàĞÍÎªAuditEventRepositoryµÄBeanµÄ¡£
+auditeventsç«¯ç‚¹ç”¨äºæ˜¾ç¤ºåº”ç”¨æš´éœ²çš„å®¡è®¡äº‹ä»¶ (æ¯”å¦‚è®¤è¯è¿›å…¥ã€è®¢å•å¤±è´¥)ï¼Œå³ä½¿æˆ‘ä»¬æ‰“å¼€äº†æ‰€æœ‰ç«¯ç‚¹ï¼Œé»˜è®¤æƒ…å†µä¸‹ä¹Ÿæ˜¯çœ‹ä¸åˆ°è¿™ä¸ªç«¯ç‚¹çš„ã€‚å› ä¸ºä½¿ç”¨å®ƒçš„å‰ææ˜¯éœ€è¦åœ¨Springå®¹å™¨ä¸­å­˜åœ¨ä¸€ä¸ªç±»å‹ä¸ºAuditEventRepositoryçš„Beançš„ã€‚
 
-²é¿´ÁËÍøÂçÉÏ´ó¶àÊı½Ì³Ì£¬»ù±¾ÉÏ¶¼ÊÇ½éÉÜÁËauditevents¶Ëµã¹¦ÄÜ£¬¶øÎ´Õ¹Ê¾¾ßÌåÊµÀı¡£±ÊÕß¾­¹ı¶à·½³¢ÊÔ£¬ÖÕÓÚ¸ø´ó¼ÒĞ´ÁËÒ»¸ö°¸Àı³öÀ´¡£
+æŸ¥çœ‹äº†ç½‘ç»œä¸Šå¤§å¤šæ•°æ•™ç¨‹ï¼ŒåŸºæœ¬ä¸Šéƒ½æ˜¯ä»‹ç»äº†auditeventsç«¯ç‚¹åŠŸèƒ½ï¼Œè€Œæœªå±•ç¤ºå…·ä½“å®ä¾‹ã€‚ç¬”è€…ç»è¿‡å¤šæ–¹å°è¯•ï¼Œç»ˆäºç»™å¤§å®¶å†™äº†ä¸€ä¸ªæ¡ˆä¾‹å‡ºæ¥ã€‚
 
-Ê×ÏÈÉæ¼°µ½È¨ÏŞÈÏÖ¤£¬ĞèÒªÏÈÒıÈëspring-boot-starter-securityÒÀÀµ£º
+é¦–å…ˆæ¶‰åŠåˆ°æƒé™è®¤è¯ï¼Œéœ€è¦å…ˆå¼•å…¥spring-boot-starter-securityä¾èµ–ï¼š
 
 ````
 <dependency>
@@ -45,7 +45,7 @@ auditevents¶ËµãÓÃÓÚÏÔÊ¾Ó¦ÓÃ±©Â¶µÄÉó¼ÆÊÂ¼ş (±ÈÈçÈÏÖ¤½øÈë¡¢¶©µ¥Ê§°Ü)£¬¼´Ê¹ÎÒÃÇ´ò¿ª
 </dependency>` 
 ````
 
-µ¥´¿Ìí¼ÓÕâ¸öÒÀÀµ»¹ÊÇ²»¹»µÄ£¬»¹ĞèÒª¼ÓÈësecurityµÄÅäÖÃ£¬²»È»AuthorizationAuditListener,AuthenticationAuditListener ¼àÌıÊ²Ã´ÊÂ¼şÄØ? Òò´Ë,ÎÒÃÇ¼ÓÈëÈçÏÂ´úÂë£º
+å•çº¯æ·»åŠ è¿™ä¸ªä¾èµ–è¿˜æ˜¯ä¸å¤Ÿçš„ï¼Œè¿˜éœ€è¦åŠ å…¥securityçš„é…ç½®ï¼Œä¸ç„¶AuthorizationAuditListener,AuthenticationAuditListener ç›‘å¬ä»€ä¹ˆäº‹ä»¶å‘¢? å› æ­¤,æˆ‘ä»¬åŠ å…¥å¦‚ä¸‹ä»£ç ï¼š
 
 
 ````
@@ -70,9 +70,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 }
 ````
 
-ÕâÀï²ÉÓÃÁËsecurityÄ¬ÈÏµÄµÇÂ¼½çÃæºÍÈ¨ÏŞ¿ØÖÆ£¬Ò²¾ÍÊÇËµËùÓĞµÄ·ÃÎÊ¶¼ĞèÒª½øĞĞµÇÂ¼¡£¶øµÇÂ¼µÄÓÃ»§ÃûºÍÃÜÂë¾ùÎªadmin¡£
+è¿™é‡Œé‡‡ç”¨äº†securityé»˜è®¤çš„ç™»å½•ç•Œé¢å’Œæƒé™æ§åˆ¶ï¼Œä¹Ÿå°±æ˜¯è¯´æ‰€æœ‰çš„è®¿é—®éƒ½éœ€è¦è¿›è¡Œç™»å½•ã€‚è€Œç™»å½•çš„ç”¨æˆ·åå’Œå¯†ç å‡ä¸ºadminã€‚
 
-ÁíÍâ£¬Ç°ÃæÌáµ½ĞèÒªÓÃµ½AuditEventRepositoryµÄBean£¬ÕâÀï³õÊ¼»¯Ò»¸ö¶ÔÓ¦µÄBean£º
+å¦å¤–ï¼Œå‰é¢æåˆ°éœ€è¦ç”¨åˆ°AuditEventRepositoryçš„Beanï¼Œè¿™é‡Œåˆå§‹åŒ–ä¸€ä¸ªå¯¹åº”çš„Beanï¼š
 
 
 
@@ -88,37 +88,37 @@ public class AuditEventConfig {
 }
 ````
 
-InMemoryAuditEventRepositoryÊÇAuditEventRepository½Ó¿ÚµÄÎ¨Ò»ÊµÏÖÀà¡£
+InMemoryAuditEventRepositoryæ˜¯AuditEventRepositoryæ¥å£çš„å”¯ä¸€å®ç°ç±»ã€‚
 
-ÖØÆôÏîÄ¿£¬auditevents¶Ëµã±ã¿ÉÓÃÁË¡£·ÃÎÊ[http://localhost:8080/actuator](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator "http://localhost:8080/actuator") ,´ËÊ±»áÌø×ªµ½SecurityÌá¹©µÄµÇÂ¼Ò³Ãæ£º
+é‡å¯é¡¹ç›®ï¼Œauditeventsç«¯ç‚¹ä¾¿å¯ç”¨äº†ã€‚è®¿é—®[http://localhost:8080/actuator](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator "http://localhost:8080/actuator") ,æ­¤æ—¶ä¼šè·³è½¬åˆ°Securityæä¾›çš„ç™»å½•é¡µé¢ï¼š
 
 ![image-20230530233604253](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233604253.png)
 
-ÊäÈë´úÂëÖĞÖ¸¶¨µÄÓÃ»§ÃûºÍÃÜÂë£¬µÇÂ¼³É¹¦£¬Ìø×ªµ½/actuatorÒ³Ãæ£º
+è¾“å…¥ä»£ç ä¸­æŒ‡å®šçš„ç”¨æˆ·åå’Œå¯†ç ï¼Œç™»å½•æˆåŠŸï¼Œè·³è½¬åˆ°/actuatoré¡µé¢ï¼š
 
 ![image-20230530233625068](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233625068.png)
 
-¿ÉÒÔ¿´µ½auditevents¶ËµãÒÑ¾­³É¹¦ÏÔÊ¾³öÀ´ÁË¡£ĞÂ¿ªÒ³Ãæ·ÃÎÊ[http://localhost:8080/actuator/auditevents](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fauditevents "http://localhost:8080/actuator/auditevents") £¬Õ¹Ê¾ÄÚÈİÈçÏÂ£º
+å¯ä»¥çœ‹åˆ°auditeventsç«¯ç‚¹å·²ç»æˆåŠŸæ˜¾ç¤ºå‡ºæ¥äº†ã€‚æ–°å¼€é¡µé¢è®¿é—®[http://localhost:8080/actuator/auditevents](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fauditevents "http://localhost:8080/actuator/auditevents") ï¼Œå±•ç¤ºå†…å®¹å¦‚ä¸‹ï¼š
 
 ![image-20230530233716752](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233716752.png)
 
-¿ÉÒÔ¿´µ½ÒÑ¾­¼ÇÂ¼ÏÂÁËÈ¨ÏŞÏà¹ØµÄÊÂ¼ş£¬ÆäÖĞµÚÒ»´ÎÊÂ¼şÊÇÎÒÃÇÖ±½Ó·ÃÎÊactuator¶ËµãÊ±£¬ÓÉÓÚÖ®Ç°Îª×öÈ¨ÏŞÈÏÕæ£¬ËùÒÔÊÂ¼şÀàĞÍÎª"AUTHORIZATION_FAILURE"£¬Ò²¾ÍÊÇÈÏÖ¤Ê§°Ü¡£´ËÊ±Ìø×ªµ½µÇÂ¼Ò³Ãæ£¬È»ºóÔÚµÇÂ¼Ò³ÃæÊäÈëÓÃ»§ÃûºÍÃÜÂë£¬µÇÂ¼³É¹¦£¬¶ÔÓ¦µÄÊÂ¼şÎª"AUTHENTICATION_SUCCESS"¡£
+å¯ä»¥çœ‹åˆ°å·²ç»è®°å½•ä¸‹äº†æƒé™ç›¸å…³çš„äº‹ä»¶ï¼Œå…¶ä¸­ç¬¬ä¸€æ¬¡äº‹ä»¶æ˜¯æˆ‘ä»¬ç›´æ¥è®¿é—®actuatorç«¯ç‚¹æ—¶ï¼Œç”±äºä¹‹å‰ä¸ºåšæƒé™è®¤çœŸï¼Œæ‰€ä»¥äº‹ä»¶ç±»å‹ä¸º"AUTHORIZATION_FAILURE"ï¼Œä¹Ÿå°±æ˜¯è®¤è¯å¤±è´¥ã€‚æ­¤æ—¶è·³è½¬åˆ°ç™»å½•é¡µé¢ï¼Œç„¶ååœ¨ç™»å½•é¡µé¢è¾“å…¥ç”¨æˆ·åå’Œå¯†ç ï¼Œç™»å½•æˆåŠŸï¼Œå¯¹åº”çš„äº‹ä»¶ä¸º"AUTHENTICATION_SUCCESS"ã€‚
 
-Ò²¾ÍÊÇËµauditevents¼ÇÂ¼ÁËÓÃ»§ÈÏÖ¤µÇÂ¼ÏµÍ³Ïà¹ØµÄÊÂ¼şĞÅÏ¢£¬°üÀ¨Ê±¼ä´Á¡¢ÈÏÖ¤ÓÃ»§¡¢ÊÂ¼şÀàĞÍ¡¢·ÃÎÊµØÖ·¡¢sessionIdµÈ¡£
+ä¹Ÿå°±æ˜¯è¯´auditeventsè®°å½•äº†ç”¨æˆ·è®¤è¯ç™»å½•ç³»ç»Ÿç›¸å…³çš„äº‹ä»¶ä¿¡æ¯ï¼ŒåŒ…æ‹¬æ—¶é—´æˆ³ã€è®¤è¯ç”¨æˆ·ã€äº‹ä»¶ç±»å‹ã€è®¿é—®åœ°å€ã€sessionIdç­‰ã€‚
 
-Ê¾ÀıÔ´ÂëµØÖ·£º[github.com/secbr/sprin¡­](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fsecbr%2Fspringboot-all%2Ftree%2Fmaster%2Fspringboot-actuator-auditevents "https://github.com/secbr/springboot-all/tree/master/springboot-actuator-auditevents") ¡£
+ç¤ºä¾‹æºç åœ°å€ï¼š[github.com/secbr/sprinâ€¦](https://link.juejin.cn?target=https%3A%2F%2Fgithub.com%2Fsecbr%2Fspringboot-all%2Ftree%2Fmaster%2Fspringboot-actuator-auditevents "https://github.com/secbr/springboot-all/tree/master/springboot-actuator-auditevents") ã€‚
 
-## beans¶Ëµã
+## beansç«¯ç‚¹
 
-/beans¶Ëµã»á·µ»ØSpringÈİÆ÷ÖĞËùÓĞbeanµÄ±ğÃû¡¢ÀàĞÍ¡¢ÊÇ·ñµ¥Àı¡¢ÒÀÀµµÈĞÅÏ¢¡£
+/beansç«¯ç‚¹ä¼šè¿”å›Springå®¹å™¨ä¸­æ‰€æœ‰beançš„åˆ«åã€ç±»å‹ã€æ˜¯å¦å•ä¾‹ã€ä¾èµ–ç­‰ä¿¡æ¯ã€‚
 
-·ÃÎÊÂ·¾¶Îª[http://localhost:8080/actuator/beans](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fbeans "http://localhost:8080/actuator/beans") £¬·¶Î§½á¹ûÈçÏÂ£º
+è®¿é—®è·¯å¾„ä¸º[http://localhost:8080/actuator/beans](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fbeans "http://localhost:8080/actuator/beans") ï¼ŒèŒƒå›´ç»“æœå¦‚ä¸‹ï¼š
 
 ![image-20230530233748286](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233748286.png)
 
-Õâ¸ö¶Ëµã»áÕ¹Ê¾Ä¿Ç°SpringÈİÆ÷ÖĞ³õÊ¼»¯µÄËùÓĞBean£¬ÊÔÏëÒ»ÏÂ£¬Èç¹ûÄãÅäÖÃÁËÒ»¸öBean£¬µ«²»È·¶¨ÊÇ·ñ³É¹¦ÊµÀı»¯£¬ÊÇ²»ÊÇ¾Í¿ÉÒÔÍ¨¹ıÕâ¸ö¶Ë¿Ú²éÑ¯Ò»ÏÂÄØ£¿
+è¿™ä¸ªç«¯ç‚¹ä¼šå±•ç¤ºç›®å‰Springå®¹å™¨ä¸­åˆå§‹åŒ–çš„æ‰€æœ‰Beanï¼Œè¯•æƒ³ä¸€ä¸‹ï¼Œå¦‚æœä½ é…ç½®äº†ä¸€ä¸ªBeanï¼Œä½†ä¸ç¡®å®šæ˜¯å¦æˆåŠŸå®ä¾‹åŒ–ï¼Œæ˜¯ä¸æ˜¯å°±å¯ä»¥é€šè¿‡è¿™ä¸ªç«¯å£æŸ¥è¯¢ä¸€ä¸‹å‘¢ï¼Ÿ
 
-ÎÒÃÇÔÚÏîÄ¿ÖĞ¶¨ÒåÒ»¸öTestController£¬²¢×¢ÈëÒ»¸öUserService£º
+æˆ‘ä»¬åœ¨é¡¹ç›®ä¸­å®šä¹‰ä¸€ä¸ªTestControllerï¼Œå¹¶æ³¨å…¥ä¸€ä¸ªUserServiceï¼š
 
 
 ````
@@ -130,17 +130,17 @@ public class TestController {
 }
 ````
 
-ÖØĞÂÆô¶¯²¢·ÃÎÊ¸Ã¶Ëµã£¬»á¿´µ½ÈçÏÂĞÅÏ¢£º
+é‡æ–°å¯åŠ¨å¹¶è®¿é—®è¯¥ç«¯ç‚¹ï¼Œä¼šçœ‹åˆ°å¦‚ä¸‹ä¿¡æ¯ï¼š
 
 ![image-20230530233805161](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233805161.png)
 
-¿ÉÒÔ¿´µ½TestController±»ÊµÀı»¯ÁË£¬¶øÇÒÒÀÀµÓÚUserService¡£
+å¯ä»¥çœ‹åˆ°TestControllerè¢«å®ä¾‹åŒ–äº†ï¼Œè€Œä¸”ä¾èµ–äºUserServiceã€‚
 
-## caches¶Ëµã
+## cachesç«¯ç‚¹
 
-caches¶ËµãÖ÷ÒªÓÃÓÚ±©Â¶Ó¦ÓÃ³ÌĞòÖĞµÄ»º³å¡£ÕâÀïÒÔSpring BootÌá¹©µÄCache×é¼şÀ´Õ¹Ê¾Ò»ÏÂÊµÀı¡£
+cachesç«¯ç‚¹ä¸»è¦ç”¨äºæš´éœ²åº”ç”¨ç¨‹åºä¸­çš„ç¼“å†²ã€‚è¿™é‡Œä»¥Spring Bootæä¾›çš„Cacheç»„ä»¶æ¥å±•ç¤ºä¸€ä¸‹å®ä¾‹ã€‚
 
-ÔÚÏîÄ¿ÖĞ¼¯³Éspring-boot-starter-cache£¬ÒıÈëÒÀÀµ£º
+åœ¨é¡¹ç›®ä¸­é›†æˆspring-boot-starter-cacheï¼Œå¼•å…¥ä¾èµ–ï¼š
 
 
 ````
@@ -150,9 +150,9 @@ caches¶ËµãÖ÷ÒªÓÃÓÚ±©Â¶Ó¦ÓÃ³ÌĞòÖĞµÄ»º³å¡£ÕâÀïÒÔSpring BootÌá¹©µÄCache×é¼şÀ´Õ¹Ê¾Ò»
 </dependency>
 ````
 
-È»ºóÔÚÆô¶¯ÀàÉÏÌí¼Ó@EnableCaching£¬¿ªÆô»º´æ¹¦ÄÜ¡£
+ç„¶ååœ¨å¯åŠ¨ç±»ä¸Šæ·»åŠ @EnableCachingï¼Œå¼€å¯ç¼“å­˜åŠŸèƒ½ã€‚
 
-¶¨ÒåÒ»¸öCacheController£¬¶ÔÆä·½·¨queryAllÊ¹ÓÃ»º´æ»úÖÆ£º
+å®šä¹‰ä¸€ä¸ªCacheControllerï¼Œå¯¹å…¶æ–¹æ³•queryAllä½¿ç”¨ç¼“å­˜æœºåˆ¶ï¼š
 
 
 ````
@@ -170,46 +170,46 @@ public class CacheController {
 }
 ````
 
-ÕâÀïÊ¹ÓÃ@Cacheable×¢½âÀ´ÊµÏÖ»º´æ¹¦ÄÜ£¬»º´æµÄkeyÎªqueryAll¡£´ËÊ±£¬·ÃÎÊ[http://localhost:8080/actuator/caches](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fcaches "http://localhost:8080/actuator/caches") £¬»áÕ¹Ê¾»º´æµÄ¸ùÄÚÈİ£¬µ«ÀïÃæ²¢Ã»ÓĞ»º´æ¡£
+è¿™é‡Œä½¿ç”¨@Cacheableæ³¨è§£æ¥å®ç°ç¼“å­˜åŠŸèƒ½ï¼Œç¼“å­˜çš„keyä¸ºqueryAllã€‚æ­¤æ—¶ï¼Œè®¿é—®[http://localhost:8080/actuator/caches](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fcaches "http://localhost:8080/actuator/caches") ï¼Œä¼šå±•ç¤ºç¼“å­˜çš„æ ¹å†…å®¹ï¼Œä½†é‡Œé¢å¹¶æ²¡æœ‰ç¼“å­˜ã€‚
 
-·ÃÎÊÒ»ÏÂ[http://localhost:8080/queryAll](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2FqueryAll "http://localhost:8080/queryAll") £¬Ò²¾ÍÊÇ´¥·¢Ò»ÏÂ»º´æÄÚÈİµÄÉú³É¡£´ËÊ±ÔÙ·ÃÎÊÉÏÃæµÄÁ´½Ó£¬±ã¿ÉÒÔ¿´µ½Ó¦ÓÃ³ÌĞòÖĞµÄ»º´æĞÅÏ¢ÁË£º
+è®¿é—®ä¸€ä¸‹[http://localhost:8080/queryAll](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2FqueryAll "http://localhost:8080/queryAll") ï¼Œä¹Ÿå°±æ˜¯è§¦å‘ä¸€ä¸‹ç¼“å­˜å†…å®¹çš„ç”Ÿæˆã€‚æ­¤æ—¶å†è®¿é—®ä¸Šé¢çš„é“¾æ¥ï¼Œä¾¿å¯ä»¥çœ‹åˆ°åº”ç”¨ç¨‹åºä¸­çš„ç¼“å­˜ä¿¡æ¯äº†ï¼š
 
 ![image-20230530233852486](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233852486.png)
 
-¿ÉÒÔ¿´µ½£¬·µ»ØµÄÄÚÈİ²»½öÕ¹Ê¾ÁËÓ¦ÓÃ³ÌĞòµÄ»º´æ¹ÜÀíÆ÷£¬Í¬Ê±Ò²Õ¹Ê¾ÁË»º´æµÄKeyºÍ»º´æÊı¾İ´æ´¢ÀàĞÍĞÅÏ¢¡£
+å¯ä»¥çœ‹åˆ°ï¼Œè¿”å›çš„å†…å®¹ä¸ä»…å±•ç¤ºäº†åº”ç”¨ç¨‹åºçš„ç¼“å­˜ç®¡ç†å™¨ï¼ŒåŒæ—¶ä¹Ÿå±•ç¤ºäº†ç¼“å­˜çš„Keyå’Œç¼“å­˜æ•°æ®å­˜å‚¨ç±»å‹ä¿¡æ¯ã€‚
 
-## caches-cache¶Ëµã
+## caches-cacheç«¯ç‚¹
 
-caches-cache¶ËµãÊÇ¶ÔÉÏÃæcaches¶ËµãµÄÀ©Õ¹£¬caches¶ËµãÕ¹Ê¾µÄËùÓĞµÄ»º´æĞÅÏ¢¡£Èç¹ûÏëÖ±½Ó¿´³ö¾ßÌåµÄÒ»¸ö»º´æĞÅÏ¢£¬Ôò¿ÉÒÔÊ¹ÓÃcaches-cache¶Ëµã¡£
+caches-cacheç«¯ç‚¹æ˜¯å¯¹ä¸Šé¢cachesç«¯ç‚¹çš„æ‰©å±•ï¼Œcachesç«¯ç‚¹å±•ç¤ºçš„æ‰€æœ‰çš„ç¼“å­˜ä¿¡æ¯ã€‚å¦‚æœæƒ³ç›´æ¥çœ‹å‡ºå…·ä½“çš„ä¸€ä¸ªç¼“å­˜ä¿¡æ¯ï¼Œåˆ™å¯ä»¥ä½¿ç”¨caches-cacheç«¯ç‚¹ã€‚
 
-·ÃÎÊµÄURLÎª£º[http://localhost:8080/actuator/caches/{cache}](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fcaches%2F%257Bcache%257D "http://localhost:8080/actuator/caches/%7Bcache%7D") £¬ÆäÖĞ´óÀ¨ºÅÄÚµÄÖµ¿ÉÒÔÌæ»»Îª»º´æµÄkey¡£
+è®¿é—®çš„URLä¸ºï¼š[http://localhost:8080/actuator/caches/{cache}](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fcaches%2F%257Bcache%257D "http://localhost:8080/actuator/caches/%7Bcache%7D") ï¼Œå…¶ä¸­å¤§æ‹¬å·å†…çš„å€¼å¯ä»¥æ›¿æ¢ä¸ºç¼“å­˜çš„keyã€‚
 
 
 
 
 `http://localhost:8080/actuator/caches/queryAll`
 
-½«ÉÏÃæµÄÕ¼Î»·û»»³ÉqueryAll£¨»º´æµÄkey£©£¬Ö´ĞĞ½á¹ûÈçÏÂ£º
+å°†ä¸Šé¢çš„å ä½ç¬¦æ¢æˆqueryAllï¼ˆç¼“å­˜çš„keyï¼‰ï¼Œæ‰§è¡Œç»“æœå¦‚ä¸‹ï¼š
 
 ![image-20230530233906164](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233906164.png)
 
-¿ÉÒÔ¿´³ö£¬Ö»²éÑ¯³ıÁËÖ¸¶¨µÄ»º´æĞÅÏ¢£¬°üÀ¨»º´æ¹ÜÀíÆ÷¡¢»º´æÃû³Æ£¨key£©£¬»º´æµÄ´æ´¢ÀàĞÍ¡£
+å¯ä»¥çœ‹å‡ºï¼ŒåªæŸ¥è¯¢é™¤äº†æŒ‡å®šçš„ç¼“å­˜ä¿¡æ¯ï¼ŒåŒ…æ‹¬ç¼“å­˜ç®¡ç†å™¨ã€ç¼“å­˜åç§°ï¼ˆkeyï¼‰ï¼Œç¼“å­˜çš„å­˜å‚¨ç±»å‹ã€‚
 
-## health¶Ëµã
+## healthç«¯ç‚¹
 
-health¶ËµãÓÃÀ´¼ì²éÓ¦ÓÃµÄÔËĞĞ×´Ì¬£¬×î¸ßÆµÊ¹ÓÃµÄÒ»¸ö¶Ëµã¡£¼ì²éÓ¦ÓÃÊµÀıµÄÔËĞĞ×´Ì¬ÒÔ¼°Ó¦ÓÃ²»¡±½¡¿µ¡°µÄÔ­Òò£¬±ÈÈçÊı¾İ¿âÁ¬½Ó¡¢´ÅÅÌ¿Õ¼ä²»¹»µÈ¡£
+healthç«¯ç‚¹ç”¨æ¥æ£€æŸ¥åº”ç”¨çš„è¿è¡ŒçŠ¶æ€ï¼Œæœ€é«˜é¢‘ä½¿ç”¨çš„ä¸€ä¸ªç«¯ç‚¹ã€‚æ£€æŸ¥åº”ç”¨å®ä¾‹çš„è¿è¡ŒçŠ¶æ€ä»¥åŠåº”ç”¨ä¸â€å¥åº·â€œçš„åŸå› ï¼Œæ¯”å¦‚æ•°æ®åº“è¿æ¥ã€ç£ç›˜ç©ºé—´ä¸å¤Ÿç­‰ã€‚
 
-·ÃÎÊµØÖ·£º[http://localhost:8080/actuator/health](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fhealth "http://localhost:8080/actuator/health")
+è®¿é—®åœ°å€ï¼š[http://localhost:8080/actuator/health](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fhealth "http://localhost:8080/actuator/health")
 
-Õ¹Ê¾½á¹û£º
+å±•ç¤ºç»“æœï¼š
 
 `{
 "status": "UP"
 }`
 
-ÉÏÃæµÄÊµÀı¹ıÓÚ¼òµ¥£¬ÔÚÏîÄ¿ÖĞ°ÑÊı¾İ¿â¸ø¼¯³É½øÈ¥£º
+ä¸Šé¢çš„å®ä¾‹è¿‡äºç®€å•ï¼Œåœ¨é¡¹ç›®ä¸­æŠŠæ•°æ®åº“ç»™é›†æˆè¿›å»ï¼š
 
-`<!--Êı¾İ¿âÁ¬½ÓÏà¹Ø-->
+`<!--æ•°æ®åº“è¿æ¥ç›¸å…³-->
 
 ````
 <dependency>
@@ -222,7 +222,7 @@ health¶ËµãÓÃÀ´¼ì²éÓ¦ÓÃµÄÔËĞĞ×´Ì¬£¬×î¸ßÆµÊ¹ÓÃµÄÒ»¸ö¶Ëµã¡£¼ì²éÓ¦ÓÃÊµÀıµÄÔËĞĞ×´Ì¬ÒÔ
 </dependency>` 
 ````
 
-È»ºóÔÚapplicationÅäÖÃÎÄ¼şÖĞ½øĞĞÅäÖÃ£º
+ç„¶ååœ¨applicationé…ç½®æ–‡ä»¶ä¸­è¿›è¡Œé…ç½®ï¼š
 
 
 
@@ -235,25 +235,25 @@ spring:
  driver-class-name: com.mysql.cj.jdbc.Driver
 ```
 
-Í¬Ê±£¬ÎÒÃÇÒªÔÚapplicationÅäÖÃÎÄ¼şÖĞÅäÖÃÒ»ÏÂmanagement.endpoint.health.show-detailsµÄÖµ¡£¸ÃÊôĞÔÓĞÈı¸ö¿ÉÑ¡Ïî£º
+åŒæ—¶ï¼Œæˆ‘ä»¬è¦åœ¨applicationé…ç½®æ–‡ä»¶ä¸­é…ç½®ä¸€ä¸‹management.endpoint.health.show-detailsçš„å€¼ã€‚è¯¥å±æ€§æœ‰ä¸‰ä¸ªå¯é€‰é¡¹ï¼š
 
-*   never £º²»Õ¹Ê¾ÏêÏ¸ĞÅÏ¢£¬up »òÕß down µÄ×´Ì¬£¬Ä¬ÈÏÅäÖÃ£»
-*   when-authorized£ºÏêÏ¸ĞÅÏ¢½«»áÕ¹Ê¾¸øÍ¨¹ıÈÏÖ¤µÄÓÃ»§¡£ÊÚÈ¨µÄ½ÇÉ«¿ÉÒÔÍ¨¹ımanagement.endpoint.health.roles ÅäÖÃ£»
-*   always£º¶ÔËùÓĞÓÃ»§±©Â¶ÏêÏ¸ĞÅÏ¢¡£
+*   never ï¼šä¸å±•ç¤ºè¯¦ç»†ä¿¡æ¯ï¼Œup æˆ–è€… down çš„çŠ¶æ€ï¼Œé»˜è®¤é…ç½®ï¼›
+*   when-authorizedï¼šè¯¦ç»†ä¿¡æ¯å°†ä¼šå±•ç¤ºç»™é€šè¿‡è®¤è¯çš„ç”¨æˆ·ã€‚æˆæƒçš„è§’è‰²å¯ä»¥é€šè¿‡management.endpoint.health.roles é…ç½®ï¼›
+*   alwaysï¼šå¯¹æ‰€æœ‰ç”¨æˆ·æš´éœ²è¯¦ç»†ä¿¡æ¯ã€‚
 
-Ä¬ÈÏÖµÊÇnever£¬ËùÒÔÎÒÃÇÖ±½Ó·ÃÎÊ¿´µ½µÄÖ»ÓĞUP»òDOWN¡£ÏÖÔÚ¼¯³ÉÁËÊı¾İ¿â£¬Í¬Ê±°Ñ¸ÃÏîÖµÅäÖÃÎªalways£¬¿´Ò»ÏÂÏêÇé£º
+é»˜è®¤å€¼æ˜¯neverï¼Œæ‰€ä»¥æˆ‘ä»¬ç›´æ¥è®¿é—®çœ‹åˆ°çš„åªæœ‰UPæˆ–DOWNã€‚ç°åœ¨é›†æˆäº†æ•°æ®åº“ï¼ŒåŒæ—¶æŠŠè¯¥é¡¹å€¼é…ç½®ä¸ºalwaysï¼Œçœ‹ä¸€ä¸‹è¯¦æƒ…ï¼š
 
 ![image-20230530233934501](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233934501.png)
 
-¿ÉÒÔ¿´µ½ÕûÌå×´Ì¬ÎªUP£¬ÆäÖĞÏÂÃæµÄÈı¸ö×é¼ş¾ùÎªUP£¬¶øÊı¾İ¿âÊÇMYSQL£¬¼ì²éÊı¾İ¿âµÄÓï¾äÎª¡°SELECT 1¡±¡£Í¬Ê±£¬»¹Õ¹Ê¾ÁË´ÅÅÌĞÅÏ¢ºÍpingµÄ×´Ì¬¡£
+å¯ä»¥çœ‹åˆ°æ•´ä½“çŠ¶æ€ä¸ºUPï¼Œå…¶ä¸­ä¸‹é¢çš„ä¸‰ä¸ªç»„ä»¶å‡ä¸ºUPï¼Œè€Œæ•°æ®åº“æ˜¯MYSQLï¼Œæ£€æŸ¥æ•°æ®åº“çš„è¯­å¥ä¸ºâ€œSELECT 1â€ã€‚åŒæ—¶ï¼Œè¿˜å±•ç¤ºäº†ç£ç›˜ä¿¡æ¯å’Œpingçš„çŠ¶æ€ã€‚
 
-ÏÖÔÚÎÒÃÇ°ÑÊı¾İ¿âµÄÓÃ»§ÃûºÍÃÜÂë¹ÊÒâ¸Ä´í£¬ÖØÆô·ÃÎÊ¿ÉµÃ£º
+ç°åœ¨æˆ‘ä»¬æŠŠæ•°æ®åº“çš„ç”¨æˆ·åå’Œå¯†ç æ•…æ„æ”¹é”™ï¼Œé‡å¯è®¿é—®å¯å¾—ï¼š
 
 ![image-20230530233951145](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530233951145.png)
 
-×´Ì¬ÎªDOWN£¬×é¼şÖĞdb³öÏÖÁËÎÊÌâ£¬×´Ì¬ÎªDOWN¡£ÎÊÌâµÄÏêÇéÔÚerrorÖĞÕ¹Ê¾£¬¿ÉÒÔ¿´³öÊÇ½¨Á¢Á¬½ÓÊ±³ö´íÁË¡£ÔÚÊµ¼ùÖĞ£¬ÎÒÃÇ¿ÉÒÔÍ¨¹ıhealth¶Ë¿Ú¼à¿ØÊı¾İ¿â¡¢Redis¡¢MongoDB¡¢´ÅÅÌµÈ½¡¿µÇé¿ö¡£ActuatorÔ¤¶¨ÒåµÄ´¦ÀíÀàÎª£ºDataSourceHealthIndicator, DiskSpaceHealthIndicator, MongoHealthIndicator, RedisHealthIndicatorµÈ¡£
+çŠ¶æ€ä¸ºDOWNï¼Œç»„ä»¶ä¸­dbå‡ºç°äº†é—®é¢˜ï¼ŒçŠ¶æ€ä¸ºDOWNã€‚é—®é¢˜çš„è¯¦æƒ…åœ¨errorä¸­å±•ç¤ºï¼Œå¯ä»¥çœ‹å‡ºæ˜¯å»ºç«‹è¿æ¥æ—¶å‡ºé”™äº†ã€‚åœ¨å®è·µä¸­ï¼Œæˆ‘ä»¬å¯ä»¥é€šè¿‡healthç«¯å£ç›‘æ§æ•°æ®åº“ã€Redisã€MongoDBã€ç£ç›˜ç­‰å¥åº·æƒ…å†µã€‚Actuatoré¢„å®šä¹‰çš„å¤„ç†ç±»ä¸ºï¼šDataSourceHealthIndicator, DiskSpaceHealthIndicator, MongoHealthIndicator, RedisHealthIndicatorç­‰ã€‚
 
-¶øÇÒÃ¿¸öÖ¸±ê¶¼¿ÉÒÔµ¥¶ÀµÄ½øĞĞ¿ªÆôºÍ¹Ø±Õ£¬ÒÔÊı¾İ¿âµÄÎªÀı£º
+è€Œä¸”æ¯ä¸ªæŒ‡æ ‡éƒ½å¯ä»¥å•ç‹¬çš„è¿›è¡Œå¼€å¯å’Œå…³é—­ï¼Œä»¥æ•°æ®åº“çš„ä¸ºä¾‹ï¼š
 
 
 ````
@@ -263,39 +263,39 @@ management:
  enabled: true` 
 ````
 
-## info¶Ëµã
+## infoç«¯ç‚¹
 
-/info ¶ËµãÓÃÀ´²é¿´ÅäÖÃÎÄ¼ş applicationÖĞÒÔinfo¿ªÍ·µÄÅäÖÃĞÅÏ¢£¬Ä¬ÈÏÇé¿öÏÂ applicationÖĞ²¢Ã»ÓĞ info ½ÚµãÅäÖÃ£¬ËùÒÔÄ¬ÈÏÎª¿Õ¡£
+/info ç«¯ç‚¹ç”¨æ¥æŸ¥çœ‹é…ç½®æ–‡ä»¶ applicationä¸­ä»¥infoå¼€å¤´çš„é…ç½®ä¿¡æ¯ï¼Œé»˜è®¤æƒ…å†µä¸‹ applicationä¸­å¹¶æ²¡æœ‰ info èŠ‚ç‚¹é…ç½®ï¼Œæ‰€ä»¥é»˜è®¤ä¸ºç©ºã€‚
 
-applicationÖĞÌí¼ÓÈçÏÂÅäÖÃ£º
+applicationä¸­æ·»åŠ å¦‚ä¸‹é…ç½®ï¼š
 
 
 
 ````
 info:
  user:
- type: ¹«ÖÚºÅ
- name: ³ÌĞòĞÂÊÓ½ç
+ type: å…¬ä¼—å·
+ name: ç¨‹åºæ–°è§†ç•Œ
  wechat: zhuan2quan
 ````
 
-·ÃÎÊ[http://localhost:8080/actuator/info](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Finfo "http://localhost:8080/actuator/info") £¬Õ¹Ê¾½á¹ûÈçÏÂ£º
+è®¿é—®[http://localhost:8080/actuator/info](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Finfo "http://localhost:8080/actuator/info") ï¼Œå±•ç¤ºç»“æœå¦‚ä¸‹ï¼š
 
 ![image-20230530234019487](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234019487.png)
 
-## conditions¶Ëµã
+## conditionsç«¯ç‚¹
 
-Spring BootÌá¹©ÁË×Ô¶¯ÅäÖÃ¹¦ÄÜ£¬Ê¹ÓÃÆğÀ´·Ç³£·½±ã¡£µ«ÕâĞ©×Ô¶¯ÅäÖÃÀàÊÇÊ²Ã´Çé¿öÏÂÉúĞ§µÄ£¬ÊÇ·ñÉúĞ§ÊÇ±È½ÏÄÑÅÅ²éµÄ¡£´ËÊ±£¬¿ÉÒÔÊ¹ÓÃ conditions ÔÚÓ¦ÓÃÔËĞĞÊ±²é¿´Ä³¸öÅäÖÃÀàÔÚÊ²Ã´Ìõ¼şÏÂÉúĞ§£¬»òÎªÊ²Ã´Ã»ÓĞÉúĞ§¡£
+Spring Bootæä¾›äº†è‡ªåŠ¨é…ç½®åŠŸèƒ½ï¼Œä½¿ç”¨èµ·æ¥éå¸¸æ–¹ä¾¿ã€‚ä½†è¿™äº›è‡ªåŠ¨é…ç½®ç±»æ˜¯ä»€ä¹ˆæƒ…å†µä¸‹ç”Ÿæ•ˆçš„ï¼Œæ˜¯å¦ç”Ÿæ•ˆæ˜¯æ¯”è¾ƒéš¾æ’æŸ¥çš„ã€‚æ­¤æ—¶ï¼Œå¯ä»¥ä½¿ç”¨ conditions åœ¨åº”ç”¨è¿è¡Œæ—¶æŸ¥çœ‹æŸä¸ªé…ç½®ç±»åœ¨ä»€ä¹ˆæ¡ä»¶ä¸‹ç”Ÿæ•ˆï¼Œæˆ–ä¸ºä»€ä¹ˆæ²¡æœ‰ç”Ÿæ•ˆã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/conditions](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fconditions "http://localhost:8080/actuator/conditions") £¬²¿·Ö·µ»ØĞÅÏ¢ÈçÏÂ£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator/conditions](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fconditions "http://localhost:8080/actuator/conditions") ï¼Œéƒ¨åˆ†è¿”å›ä¿¡æ¯å¦‚ä¸‹ï¼š
 
 ![image-20230530234053134](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234053134.png)
 
-¿ÉÒÔ¿´µ½Ä³¸ö×Ô¶¯ÅäÖÃÀà¶ÔÓ¦µÄÉúĞ§Ìõ¼şºÍÌáÊ¾ĞÅÏ¢¡£
+å¯ä»¥çœ‹åˆ°æŸä¸ªè‡ªåŠ¨é…ç½®ç±»å¯¹åº”çš„ç”Ÿæ•ˆæ¡ä»¶å’Œæç¤ºä¿¡æ¯ã€‚
 
-## shutdown¶Ëµã
+## shutdownç«¯ç‚¹
 
-shutdown¶ËµãÊôÓÚ²Ù×÷¿ØÖÆÀà¶Ëµã£¬¿ÉÒÔÓÅÑÅ¹Ø±Õ Spring Boot Ó¦ÓÃ¡£ĞèÒªÔÚÅäÖÃÎÄ¼şÖĞ¿ªÆô£º
+shutdownç«¯ç‚¹å±äºæ“ä½œæ§åˆ¶ç±»ç«¯ç‚¹ï¼Œå¯ä»¥ä¼˜é›…å…³é—­ Spring Boot åº”ç”¨ã€‚éœ€è¦åœ¨é…ç½®æ–‡ä»¶ä¸­å¼€å¯ï¼š
 
 
 ````
@@ -305,7 +305,7 @@ management:
  enabled: true
 ````
 
-¸Ã¶ËµãÖ»Ö§³ÖPOSTÇëÇó£¬Ö´ĞĞÃüÁî¼°·µ»Ø½á¹ûÈçÏÂ£º
+è¯¥ç«¯ç‚¹åªæ”¯æŒPOSTè¯·æ±‚ï¼Œæ‰§è¡Œå‘½ä»¤åŠè¿”å›ç»“æœå¦‚ä¸‹ï¼š
 
 
 ```
@@ -315,13 +315,13 @@ curl -X POST "http://localhost:8080/actuator/shutdown"
 }
 ```
 
-Ö´ĞĞÖ®ºó£¬»á·¢ÏÖÓ¦ÓÃ³ÌĞòÒÑ¾­±»¹Ø±ÕÁË¡£ÓÉÓÚ¸Ã¶Ëµã»á¹Ø±ÕÓ¦ÓÃ³ÌĞò£¬Òò´ËÊ¹ÓÃÊÇĞèÒªĞ¡ĞÄ¡£
+æ‰§è¡Œä¹‹åï¼Œä¼šå‘ç°åº”ç”¨ç¨‹åºå·²ç»è¢«å…³é—­äº†ã€‚ç”±äºè¯¥ç«¯ç‚¹ä¼šå…³é—­åº”ç”¨ç¨‹åºï¼Œå› æ­¤ä½¿ç”¨æ˜¯éœ€è¦å°å¿ƒã€‚
 
-## configprops¶Ëµã
+## configpropsç«¯ç‚¹
 
-ÔÚSpring BootÏîÄ¿ÖĞ£¬ÎÒÃÇ¾­³£»áÓÃµ½@ConfigurationProperties×¢½âÀ´ÅúÁ¿×¢ÈëÒ»Ğ©ÊôĞÔ£¬¶øconfigprops¶Ëµã¾ÍÊÇÓÃÀ´ÏÔÊ¾ÕâĞ©±»¸Ã×¢½â±ê×¢µÄÅäÖÃÀà¡£
+åœ¨Spring Booté¡¹ç›®ä¸­ï¼Œæˆ‘ä»¬ç»å¸¸ä¼šç”¨åˆ°@ConfigurationPropertiesæ³¨è§£æ¥æ‰¹é‡æ³¨å…¥ä¸€äº›å±æ€§ï¼Œè€Œconfigpropsç«¯ç‚¹å°±æ˜¯ç”¨æ¥æ˜¾ç¤ºè¿™äº›è¢«è¯¥æ³¨è§£æ ‡æ³¨çš„é…ç½®ç±»ã€‚
 
-±ÈÈçÇ°ÃæµÄinfoÅäÖÃ£¬ÎÒÃÇ¾Í¿ÉÒÔ¶¨ÒåÒ»¸öÀàInfoProperties£º
+æ¯”å¦‚å‰é¢çš„infoé…ç½®ï¼Œæˆ‘ä»¬å°±å¯ä»¥å®šä¹‰ä¸€ä¸ªç±»InfoPropertiesï¼š
 
 
 ````
@@ -335,49 +335,49 @@ public class InfoProperties {
 
  private String wechat;
   
- // Ê¡ÂÔgetter/setter 
+ // çœç•¥getter/setter 
 }
 ````
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/configprops](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fconfigprops "http://localhost:8080/actuator/configprops") £¬²¿·ÖĞÅÏ¢ÈçÏÂ£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator/configprops](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fconfigprops "http://localhost:8080/actuator/configprops") ï¼Œéƒ¨åˆ†ä¿¡æ¯å¦‚ä¸‹ï¼š
 
 ![image-20230530234110515](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234110515.png)
 
-²»½ö¿ÉÒÔ¿´µ½ÏµÍ³ÖĞÄ¬ÈÏ¼¯³ÉµÄÅäÖÃÀàĞÅÏ¢£¬»¹¿ÉÒÔ¿´µ½ÎÒÃÇ×Ô¶¨ÒåµÄÅäÖÃÀàĞÅÏ¢¡£ÕâÀïĞèÒª×¢ÒâµÄÊÇ¶ÔÓ¦µÄÀàĞèÒª½øĞĞÊµÀı»¯£¨@Component£©ÕâÀï²ÅÄÜ¹»¿´µ½¡£
+ä¸ä»…å¯ä»¥çœ‹åˆ°ç³»ç»Ÿä¸­é»˜è®¤é›†æˆçš„é…ç½®ç±»ä¿¡æ¯ï¼Œè¿˜å¯ä»¥çœ‹åˆ°æˆ‘ä»¬è‡ªå®šä¹‰çš„é…ç½®ç±»ä¿¡æ¯ã€‚è¿™é‡Œéœ€è¦æ³¨æ„çš„æ˜¯å¯¹åº”çš„ç±»éœ€è¦è¿›è¡Œå®ä¾‹åŒ–ï¼ˆ@Componentï¼‰è¿™é‡Œæ‰èƒ½å¤Ÿçœ‹åˆ°ã€‚
 
-ÎÒÃÇ×Ô¶¨ÒåµÄÀàÖĞ·µ»ØÁËBeanµÄÃû³Æ¡¢ÅäÖÃÇ°×º¡£ÉÏÃæµÄProjectInfoProperties»¹·µ»ØÁËÊôĞÔĞÅÏ¢¡£
+æˆ‘ä»¬è‡ªå®šä¹‰çš„ç±»ä¸­è¿”å›äº†Beançš„åç§°ã€é…ç½®å‰ç¼€ã€‚ä¸Šé¢çš„ProjectInfoPropertiesè¿˜è¿”å›äº†å±æ€§ä¿¡æ¯ã€‚
 
-## env¶Ëµã
+## envç«¯ç‚¹
 
-env¶ËµãÓÃÓÚ»ñÈ¡È«²¿»·¾³ÊôĞÔ£¬°üÀ¨applicationÅäÖÃÎÄ¼şÖĞµÄÄÚÈİ¡¢ÏµÍ³±äÁ¿µÈ¡£
+envç«¯ç‚¹ç”¨äºè·å–å…¨éƒ¨ç¯å¢ƒå±æ€§ï¼ŒåŒ…æ‹¬applicationé…ç½®æ–‡ä»¶ä¸­çš„å†…å®¹ã€ç³»ç»Ÿå˜é‡ç­‰ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/env£¬·µ»Ø²¿·ÖĞÅÏ¢£º](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fenv%25EF%25BC%258C%25E8%25BF%2594%25E5%259B%259E%25E9%2583%25A8%25E5%2588%2586%25E4%25BF%25A1%25E6%2581%25AF%25EF%25BC%259A "http://localhost:8080/actuator/env%EF%BC%8C%E8%BF%94%E5%9B%9E%E9%83%A8%E5%88%86%E4%BF%A1%E6%81%AF%EF%BC%9A")
+è®¿é—®URLï¼š[http://localhost:8080/actuator/envï¼Œè¿”å›éƒ¨åˆ†ä¿¡æ¯ï¼š](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fenv%25EF%25BC%258C%25E8%25BF%2594%25E5%259B%259E%25E9%2583%25A8%25E5%2588%2586%25E4%25BF%25A1%25E6%2581%25AF%25EF%25BC%259A "http://localhost:8080/actuator/env%EF%BC%8C%E8%BF%94%E5%9B%9E%E9%83%A8%E5%88%86%E4%BF%A1%E6%81%AF%EF%BC%9A")
 
 ![image-20230530234200949](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234200949.png)
 
-## env-toMatch¶Ëµã
+## env-toMatchç«¯ç‚¹
 
-env-toMatch¶ËµãÓëcachesºÍcaches-cacheÀàËÆ£¬Ò»¸öÊÇ»ñÈ¡ËùÓĞµÄ£¬Ò»¸öÊÇ»ñÈ¡Ö¸¶¨µÄ¡£ÕâÀïµÄenv-toMatch¶ËµãÊÇ»ñÈ¡Ö¸¶¨keyµÄ»·¾³±äÁ¿ÊôĞÔ¡£
+env-toMatchç«¯ç‚¹ä¸cacheså’Œcaches-cacheç±»ä¼¼ï¼Œä¸€ä¸ªæ˜¯è·å–æ‰€æœ‰çš„ï¼Œä¸€ä¸ªæ˜¯è·å–æŒ‡å®šçš„ã€‚è¿™é‡Œçš„env-toMatchç«¯ç‚¹æ˜¯è·å–æŒ‡å®škeyçš„ç¯å¢ƒå˜é‡å±æ€§ã€‚
 
-»ù±¾¸ñÊ½Îª£º[http://localhost:8080/actuator/env/{toMatch}¡£](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fenv%2F%257BtoMatch%257D%25E3%2580%2582 "http://localhost:8080/actuator/env/%7BtoMatch%7D%E3%80%82") ÊµÀıURL£º[http://localhost:8080/actuator/env/info.user.name](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fenv%2Finfo.user.name "http://localhost:8080/actuator/env/info.user.name") £¬·µ»Ø½á¹ûÈçÏÂÍ¼£º
+åŸºæœ¬æ ¼å¼ä¸ºï¼š[http://localhost:8080/actuator/env/{toMatch}ã€‚](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fenv%2F%257BtoMatch%257D%25E3%2580%2582 "http://localhost:8080/actuator/env/%7BtoMatch%7D%E3%80%82") å®ä¾‹URLï¼š[http://localhost:8080/actuator/env/info.user.name](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fenv%2Finfo.user.name "http://localhost:8080/actuator/env/info.user.name") ï¼Œè¿”å›ç»“æœå¦‚ä¸‹å›¾ï¼š
 
 ![image-20230530234238073](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234238073.png)
 
-·µ»ØÊı¾İĞÅÏ¢°üÀ¨¸ÃÊôĞÔµÄÀ´Ô´¡¢valueÖµµÈĞÅÏ¢¡£
+è¿”å›æ•°æ®ä¿¡æ¯åŒ…æ‹¬è¯¥å±æ€§çš„æ¥æºã€valueå€¼ç­‰ä¿¡æ¯ã€‚
 
-## loggers¶Ëµã
+## loggersç«¯ç‚¹
 
-/loggers ¶Ëµã±©Â¶ÁË³ÌĞòÄÚ²¿ÅäÖÃµÄËùÓĞ logger µÄĞÅÏ¢£¬°üÀ¨²»Í¬µÄpackage¡¢²»Í¬µÄÀàµÄÈÕÖ¾¼¶±ğĞÅÏ¢¡£
+/loggers ç«¯ç‚¹æš´éœ²äº†ç¨‹åºå†…éƒ¨é…ç½®çš„æ‰€æœ‰ logger çš„ä¿¡æ¯ï¼ŒåŒ…æ‹¬ä¸åŒçš„packageã€ä¸åŒçš„ç±»çš„æ—¥å¿—çº§åˆ«ä¿¡æ¯ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/loggers](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Floggers "http://localhost:8080/actuator/loggers") £¬²¿·Ö·µ»Ø½á¹û£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator/loggers](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Floggers "http://localhost:8080/actuator/loggers") ï¼Œéƒ¨åˆ†è¿”å›ç»“æœï¼š
 
 ![image-20230530234301625](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234301625.png)
 
-## loggers-name¶Ëµã
+## loggers-nameç«¯ç‚¹
 
-loggers-name¶ËµãÒ²ÊÇlogger¶ËµãµÄÏ¸·Ö£¬¿ÉÒÔÍ¨¹ıname·ÃÎÊÄ³Ò»¸ölogger¡£
+loggers-nameç«¯ç‚¹ä¹Ÿæ˜¯loggerç«¯ç‚¹çš„ç»†åˆ†ï¼Œå¯ä»¥é€šè¿‡nameè®¿é—®æŸä¸€ä¸ªloggerã€‚
 
-»ù±¾ÇëÇó¸ñÊ½£º[http://localhost:8080/actuator/loggers/{name}](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Floggers%2F%257Bname%257D "http://localhost:8080/actuator/loggers/%7Bname%7D") Ê¾ÀıÇëÇóURL£º[http://localhost:8080/actuator/loggers/com.secbro2.SpringbootActuatorApplication](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Floggers%2Fcom.secbro2.SpringbootActuatorApplication "http://localhost:8080/actuator/loggers/com.secbro2.SpringbootActuatorApplication") £¬·µ»Ø½á¹ûÈçÏÂ£º
+åŸºæœ¬è¯·æ±‚æ ¼å¼ï¼š[http://localhost:8080/actuator/loggers/{name}](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Floggers%2F%257Bname%257D "http://localhost:8080/actuator/loggers/%7Bname%7D") ç¤ºä¾‹è¯·æ±‚URLï¼š[http://localhost:8080/actuator/loggers/com.secbro2.SpringbootActuatorApplication](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Floggers%2Fcom.secbro2.SpringbootActuatorApplication "http://localhost:8080/actuator/loggers/com.secbro2.SpringbootActuatorApplication") ï¼Œè¿”å›ç»“æœå¦‚ä¸‹ï¼š
 
 
 
@@ -386,35 +386,35 @@ loggers-name¶ËµãÒ²ÊÇlogger¶ËµãµÄÏ¸·Ö£¬¿ÉÒÔÍ¨¹ıname·ÃÎÊÄ³Ò»¸ölogger¡£
 "effectiveLevel": "INFO"
 }`
 
-¿ÉÒÔ¿´³ö£¬Æô¶¯ÀàµÄÈÕÖ¾¼¶±ğÎªINFO¡£
+å¯ä»¥çœ‹å‡ºï¼Œå¯åŠ¨ç±»çš„æ—¥å¿—çº§åˆ«ä¸ºINFOã€‚
 
-## heapdump¶Ëµã
+## heapdumpç«¯ç‚¹
 
-heapdump¶Ëµã»á·µ»ØÒ»¸öJVM ¶Ñdump£¬Í¨¹ıJVM×Ô´øµÄ¼à¿Ø¹¤¾ßVisualVM¿É´ò¿ª´ËÎÄ¼ş²é¿´ÄÚ´æ¿ìÕÕ¡£ÕâÊÇÄÚ´æÓÅ»¯£¬»ùÓÚ¶ÑÕ»²ãÃæ½øĞĞÅÅ²éµÄÀûÆ÷¡£
+heapdumpç«¯ç‚¹ä¼šè¿”å›ä¸€ä¸ªJVM å †dumpï¼Œé€šè¿‡JVMè‡ªå¸¦çš„ç›‘æ§å·¥å…·VisualVMå¯æ‰“å¼€æ­¤æ–‡ä»¶æŸ¥çœ‹å†…å­˜å¿«ç…§ã€‚è¿™æ˜¯å†…å­˜ä¼˜åŒ–ï¼ŒåŸºäºå †æ ˆå±‚é¢è¿›è¡Œæ’æŸ¥çš„åˆ©å™¨ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/heapdump](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fheapdump "http://localhost:8080/actuator/heapdump") ¡£Mac²Ù×÷ÏµÍ³ÏÂä¯ÀÀÆ÷·ÃÎÊ»áÏÂÔØÒ»¸öÃû×ÖÎªheapdumpµÄÎÄ¼ş£¬ÎŞºó×º£¬30M¡£
+è®¿é—®URLï¼š[http://localhost:8080/actuator/heapdump](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fheapdump "http://localhost:8080/actuator/heapdump") ã€‚Macæ“ä½œç³»ç»Ÿä¸‹æµè§ˆå™¨è®¿é—®ä¼šä¸‹è½½ä¸€ä¸ªåå­—ä¸ºheapdumpçš„æ–‡ä»¶ï¼Œæ— åç¼€ï¼Œ30Mã€‚
 
-ÃüÁîĞĞÖ´ĞĞjvisualvmÃüÁî£¬´ò¿ªVisualVM£¬ÒÀ´Îµã»÷¡°ÎÄ¼ş¡±¡¢¡°×°Èë¡±£¬¼ÇµÃÎÄ¼şÀàĞÍÒªÑ¡Ôñ¡°¶ÑDump(_.hprof,_.*)¡±£¬È»ºóÑ¡Ôñheapdump¡£
+å‘½ä»¤è¡Œæ‰§è¡Œjvisualvmå‘½ä»¤ï¼Œæ‰“å¼€VisualVMï¼Œä¾æ¬¡ç‚¹å‡»â€œæ–‡ä»¶â€ã€â€œè£…å…¥â€ï¼Œè®°å¾—æ–‡ä»¶ç±»å‹è¦é€‰æ‹©â€œå †Dump(_.hprof,_.*)â€ï¼Œç„¶åé€‰æ‹©heapdumpã€‚
 
 ![image-20230530234346098](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234346098.png)
 
-´ËÊ±±ã¿ÉÒÔÍ¨¹ı¹¤¾ßÀ´½øĞĞ¶ÑÕ»ĞÅÏ¢µÄ·ÖÎöÁË¡£¶ÔÓÚÏßÉÏÎÊÌâµÄ·ÖÎöÌá¹©ÁË¼«Îª±ãÀûµÄ·½Ê½¡£
+æ­¤æ—¶ä¾¿å¯ä»¥é€šè¿‡å·¥å…·æ¥è¿›è¡Œå †æ ˆä¿¡æ¯çš„åˆ†æäº†ã€‚å¯¹äºçº¿ä¸Šé—®é¢˜çš„åˆ†ææä¾›äº†æä¸ºä¾¿åˆ©çš„æ–¹å¼ã€‚
 
-## threaddump¶Ëµã
+## threaddumpç«¯ç‚¹
 
-/threaddump ¶Ëµã»áÉú³Éµ±Ç°Ïß³Ì»î¶¯µÄ¿ìÕÕ¡£ÔÚÈÕ³£¶¨Î»ÎÊÌâµÄÊ±ºò²é¿´Ïß³ÌµÄÇé¿ö·Ç³£ÓĞÓÃ£¬Ö÷ÒªÕ¹Ê¾ÁËÏß³ÌÃû¡¢Ïß³ÌID¡¢Ïß³ÌµÄ×´Ì¬¡¢ÊÇ·ñµÈ´ıËø×ÊÔ´µÈĞÅÏ¢¡£
+/threaddump ç«¯ç‚¹ä¼šç”Ÿæˆå½“å‰çº¿ç¨‹æ´»åŠ¨çš„å¿«ç…§ã€‚åœ¨æ—¥å¸¸å®šä½é—®é¢˜çš„æ—¶å€™æŸ¥çœ‹çº¿ç¨‹çš„æƒ…å†µéå¸¸æœ‰ç”¨ï¼Œä¸»è¦å±•ç¤ºäº†çº¿ç¨‹åã€çº¿ç¨‹IDã€çº¿ç¨‹çš„çŠ¶æ€ã€æ˜¯å¦ç­‰å¾…é”èµ„æºç­‰ä¿¡æ¯ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/threaddump](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fthreaddump "http://localhost:8080/actuator/threaddump") £¬²¿·Ö·µ»Ø½á¹û£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator/threaddump](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fthreaddump "http://localhost:8080/actuator/threaddump") ï¼Œéƒ¨åˆ†è¿”å›ç»“æœï¼š
 
 ![image-20230530234405331](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234405331.png)
 
-ÎÒÃÇ¿ÉÍ¨¹ıÏß³Ì¿ìÕÕÀ´ÅÅ²éÉú²ú»·¾³µÄÎÊÌâ¡£
+æˆ‘ä»¬å¯é€šè¿‡çº¿ç¨‹å¿«ç…§æ¥æ’æŸ¥ç”Ÿäº§ç¯å¢ƒçš„é—®é¢˜ã€‚
 
-## metrics¶Ëµã
+## metricsç«¯ç‚¹
 
-/metrics ¶ËµãÓÃÀ´±©Â¶µ±Ç°Ó¦ÓÃµÄ¸÷ÀàÖØÒª¶ÈÁ¿Ö¸±ê£¬±ÈÈç£ºÄÚ´æĞÅÏ¢¡¢Ïß³ÌĞÅÏ¢¡¢À¬»ø»ØÊÕĞÅÏ¢¡¢tomcat¡¢Êı¾İ¿âÁ¬½Ó³ØµÈ¡£2.x°æ±¾ÕâÀïÖ»ÏÔÊ¾ÁËÒ»¸öÖ¸±êµÄÁĞ±í¡£
+/metrics ç«¯ç‚¹ç”¨æ¥æš´éœ²å½“å‰åº”ç”¨çš„å„ç±»é‡è¦åº¦é‡æŒ‡æ ‡ï¼Œæ¯”å¦‚ï¼šå†…å­˜ä¿¡æ¯ã€çº¿ç¨‹ä¿¡æ¯ã€åƒåœ¾å›æ”¶ä¿¡æ¯ã€tomcatã€æ•°æ®åº“è¿æ¥æ± ç­‰ã€‚2.xç‰ˆæœ¬è¿™é‡Œåªæ˜¾ç¤ºäº†ä¸€ä¸ªæŒ‡æ ‡çš„åˆ—è¡¨ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/metrics](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmetrics "http://localhost:8080/actuator/metrics") ¡£
+è®¿é—®URLï¼š[http://localhost:8080/actuator/metrics](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmetrics "http://localhost:8080/actuator/metrics") ã€‚
 
 ````
 {
@@ -456,15 +456,15 @@ heapdump¶Ëµã»á·µ»ØÒ»¸öJVM ¶Ñdump£¬Í¨¹ıJVM×Ô´øµÄ¼à¿Ø¹¤¾ßVisualVM¿É´ò¿ª´ËÎÄ¼ş²é¿´Ä
 }
 ````
 
-/metrics¶Ëµã¿ÉÒÔÌá¹©Ó¦ÓÃÔËĞĞ×´Ì¬µÄÍêÕû¶ÈÁ¿Ö¸±ê±¨¸æ£¬ÕâÏî¹¦ÄÜ·Ç³£µÄÊµÓÃ£¬µ«ÊÇ¶ÔÓÚ¼à¿ØÏµÍ³ÖĞµÄ¸÷Ïî¼à¿Ø¹¦ÄÜ£¬ËüÃÇµÄ¼à¿ØÄÚÈİ¡¢Êı¾İÊÕ¼¯ÆµÂÊ¶¼ÓĞËù²»Í¬£¬Èç¹ûÎÒÃÇÃ¿´Î¶¼Í¨¹ıÈ«Á¿»ñÈ¡±¨¸æµÄ·½Ê½À´ÊÕ¼¯£¬ÂÔÏÔ´Ö±©¡£¹Ù·½Ò²ÊÇ¿ÉÄÜÊÇ´¦ÓÚ´Ë·½ÃæµÄ¿¼ÂÇ£¬ÔÚSpring Boot 2.xÖ®ºó£¬/metrics¶ËµãÖ»ÏÔÊ¾ÁËÖ¸±êµÄÁĞ±í¡£
+/metricsç«¯ç‚¹å¯ä»¥æä¾›åº”ç”¨è¿è¡ŒçŠ¶æ€çš„å®Œæ•´åº¦é‡æŒ‡æ ‡æŠ¥å‘Šï¼Œè¿™é¡¹åŠŸèƒ½éå¸¸çš„å®ç”¨ï¼Œä½†æ˜¯å¯¹äºç›‘æ§ç³»ç»Ÿä¸­çš„å„é¡¹ç›‘æ§åŠŸèƒ½ï¼Œå®ƒä»¬çš„ç›‘æ§å†…å®¹ã€æ•°æ®æ”¶é›†é¢‘ç‡éƒ½æœ‰æ‰€ä¸åŒï¼Œå¦‚æœæˆ‘ä»¬æ¯æ¬¡éƒ½é€šè¿‡å…¨é‡è·å–æŠ¥å‘Šçš„æ–¹å¼æ¥æ”¶é›†ï¼Œç•¥æ˜¾ç²—æš´ã€‚å®˜æ–¹ä¹Ÿæ˜¯å¯èƒ½æ˜¯å¤„äºæ­¤æ–¹é¢çš„è€ƒè™‘ï¼Œåœ¨Spring Boot 2.xä¹‹åï¼Œ/metricsç«¯ç‚¹åªæ˜¾ç¤ºäº†æŒ‡æ ‡çš„åˆ—è¡¨ã€‚
 
-Èç¹ûĞèÒª²é¿´¾ßÌåµÄÄ³ÏîÖ¸±ê£¬Ôò¿ÉÍ¨¹ı/metrics-requiredMetricName¶ËµãÀ´ÊµÏÖ¡£
+å¦‚æœéœ€è¦æŸ¥çœ‹å…·ä½“çš„æŸé¡¹æŒ‡æ ‡ï¼Œåˆ™å¯é€šè¿‡/metrics-requiredMetricNameç«¯ç‚¹æ¥å®ç°ã€‚
 
-## metrics-requiredMetricName¶Ëµã
+## metrics-requiredMetricNameç«¯ç‚¹
 
-metrics-requiredMetricName¶Ëµã£¬ÓÃÓÚ·ÃÎÊÖ¸¶¨Ö¸±êµÄ±¨¸æ£¬Ò»°ã»áÅäºÏ/metrics¶ËµãÏÈ²é³öÖ¸±êÁĞ±í£¬È»ºóÔÙ²éÑ¯¾ßÌåµÄÄ³¸öÖ¸±ê¡£
+metrics-requiredMetricNameç«¯ç‚¹ï¼Œç”¨äºè®¿é—®æŒ‡å®šæŒ‡æ ‡çš„æŠ¥å‘Šï¼Œä¸€èˆ¬ä¼šé…åˆ/metricsç«¯ç‚¹å…ˆæŸ¥å‡ºæŒ‡æ ‡åˆ—è¡¨ï¼Œç„¶åå†æŸ¥è¯¢å…·ä½“çš„æŸä¸ªæŒ‡æ ‡ã€‚
 
-»ù±¾¸ñÊ½£º[http://localhost:8080/actuator/metrics/{requiredMetricName}¡£](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmetrics%2F%257BrequiredMetricName%257D%25E3%2580%2582 "http://localhost:8080/actuator/metrics/%7BrequiredMetricName%7D%E3%80%82") ÊµÀıURL£º[http://localhost:8080/actuator/metrics/jvm.memory.max](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmetrics%2Fjvm.memory.max "http://localhost:8080/actuator/metrics/jvm.memory.max") £¬·µ»Ø½á¹ûÈçÏÂ£º
+åŸºæœ¬æ ¼å¼ï¼š[http://localhost:8080/actuator/metrics/{requiredMetricName}ã€‚](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmetrics%2F%257BrequiredMetricName%257D%25E3%2580%2582 "http://localhost:8080/actuator/metrics/%7BrequiredMetricName%7D%E3%80%82") å®ä¾‹URLï¼š[http://localhost:8080/actuator/metrics/jvm.memory.max](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmetrics%2Fjvm.memory.max "http://localhost:8080/actuator/metrics/jvm.memory.max") ï¼Œè¿”å›ç»“æœå¦‚ä¸‹ï¼š
 
 
 ````
@@ -501,13 +501,13 @@ metrics-requiredMetricName¶Ëµã£¬ÓÃÓÚ·ÃÎÊÖ¸¶¨Ö¸±êµÄ±¨¸æ£¬Ò»°ã»áÅäºÏ/metrics¶ËµãÏÈ
 }
 ````
 
-ÉÏÊö½á¹ûÕ¹Ê¾ÁË×î´ó¿ÉÓÃÄÚ´æµÄÇé¿ö¡£ÆäËûÏà¹ØÖ¸±êµÄÕ¹Ê¾Ìæ»»¶ÔÓ¦µÄÃû×Ö½øĞĞ²é¿´¼´¿É¡£
+ä¸Šè¿°ç»“æœå±•ç¤ºäº†æœ€å¤§å¯ç”¨å†…å­˜çš„æƒ…å†µã€‚å…¶ä»–ç›¸å…³æŒ‡æ ‡çš„å±•ç¤ºæ›¿æ¢å¯¹åº”çš„åå­—è¿›è¡ŒæŸ¥çœ‹å³å¯ã€‚
 
-## scheduledtasks¶Ëµã
+## scheduledtasksç«¯ç‚¹
 
-/scheduledtasks¶ËµãÓÃÓÚÕ¹Ê¾Ó¦ÓÃÖĞµÄ¶¨Ê±ÈÎÎñĞÅÏ¢¡£
+/scheduledtasksç«¯ç‚¹ç”¨äºå±•ç¤ºåº”ç”¨ä¸­çš„å®šæ—¶ä»»åŠ¡ä¿¡æ¯ã€‚
 
-ÏÈÔÚÏîÄ¿ÖĞ¹¹½¨Á½¸ö¶¨Ê±ÈÎÎñ£¬Ê×ÏÈÔÚÆô¶¯ÀàÉÏÌí¼Ó@EnableScheduling¿ªÆô¶¨Ê±ÈÎÎñ¹¦ÄÜ¡£È»ºó´´½¨¶¨Ê±ÈÎÎñÀà£º
+å…ˆåœ¨é¡¹ç›®ä¸­æ„å»ºä¸¤ä¸ªå®šæ—¶ä»»åŠ¡ï¼Œé¦–å…ˆåœ¨å¯åŠ¨ç±»ä¸Šæ·»åŠ @EnableSchedulingå¼€å¯å®šæ—¶ä»»åŠ¡åŠŸèƒ½ã€‚ç„¶ååˆ›å»ºå®šæ—¶ä»»åŠ¡ç±»ï¼š
 
 ````
 @Component
@@ -525,9 +525,9 @@ public class MyTask {
 }
 ````
 
-ÆäÖĞ¶¨ÒåÁËÁ½ÖÖÀàĞÍµÄ¶¨Ê±ÈÎÎñ£¬workÊÇ»ùÓÚcronÊµÏÖµÄ¶¨Ê±ÈÎÎñ£¬work1ÊÇ»ùÓÚfixedDelayÊµÏÖµÄ¶¨Ê±ÈÎÎñ¡£
+å…¶ä¸­å®šä¹‰äº†ä¸¤ç§ç±»å‹çš„å®šæ—¶ä»»åŠ¡ï¼Œworkæ˜¯åŸºäºcronå®ç°çš„å®šæ—¶ä»»åŠ¡ï¼Œwork1æ˜¯åŸºäºfixedDelayå®ç°çš„å®šæ—¶ä»»åŠ¡ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/scheduledtasks](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fscheduledtasks "http://localhost:8080/actuator/scheduledtasks") £¬·µ»Ø½á¹ûĞÅÏ¢ÈçÏÂ£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator/scheduledtasks](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fscheduledtasks "http://localhost:8080/actuator/scheduledtasks") ï¼Œè¿”å›ç»“æœä¿¡æ¯å¦‚ä¸‹ï¼š
 
 ```
 {
@@ -553,26 +553,26 @@ public class MyTask {
 }
 ```
 
-¿ÉÒÔ¿´µ½£¬Í¨¹ı¸Ã¶Ëµã¿ÉÒÔÃ÷È·µÄÖªµÀµ±Ç°Ó¦ÓÃÖĞ¶¨ÒåµÄ¶¨Ê±ÈÎÎñ£¬ÒÔ¼°Ö´ĞĞÄ£Ê½ºÍÆµ´Î¡£
+å¯ä»¥çœ‹åˆ°ï¼Œé€šè¿‡è¯¥ç«¯ç‚¹å¯ä»¥æ˜ç¡®çš„çŸ¥é“å½“å‰åº”ç”¨ä¸­å®šä¹‰çš„å®šæ—¶ä»»åŠ¡ï¼Œä»¥åŠæ‰§è¡Œæ¨¡å¼å’Œé¢‘æ¬¡ã€‚
 
-## mappings¶Ëµã
+## mappingsç«¯ç‚¹
 
-/mappings¶ËµãÓÃÓÚÃèÊöÈ«²¿µÄ URI Â·¾¶£¬ÒÔ¼°ºÍ¿ØÖÆÆ÷µÄÓ³Éä¹ØÏµ¡£Õâ¸ö¹¦ÄÜËãÊÇ±È½Ï³£ÓÃµÄÁË£¬Èç¹ûÏëÏµÍ³µÄ²é¿´URL¶ÔÓ¦µÄController¼°·½·¨£¬¿ÉÒÔÊ¹ÓÃ´Ë¶Ëµã¡£
+/mappingsç«¯ç‚¹ç”¨äºæè¿°å…¨éƒ¨çš„ URI è·¯å¾„ï¼Œä»¥åŠå’Œæ§åˆ¶å™¨çš„æ˜ å°„å…³ç³»ã€‚è¿™ä¸ªåŠŸèƒ½ç®—æ˜¯æ¯”è¾ƒå¸¸ç”¨çš„äº†ï¼Œå¦‚æœæƒ³ç³»ç»Ÿçš„æŸ¥çœ‹URLå¯¹åº”çš„ControlleråŠæ–¹æ³•ï¼Œå¯ä»¥ä½¿ç”¨æ­¤ç«¯ç‚¹ã€‚
 
-·ÃÎÊURL£º[http://localhost:8080/actuator/mappings](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmappings "http://localhost:8080/actuator/mappings") £¬²¿·Ö·µ»Ø½á¹ûÈçÏÂ£º
+è®¿é—®URLï¼š[http://localhost:8080/actuator/mappings](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8080%2Factuator%2Fmappings "http://localhost:8080/actuator/mappings") ï¼Œéƒ¨åˆ†è¿”å›ç»“æœå¦‚ä¸‹ï¼š
 
 ![image-20230530234501440](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230530234501440.png)
 
-ÖÁ´Ë¹ØÓÚSpring Boot ActuatorÌá¹©µÄËùÓĞ¶Ëµã½éÉÜÍê±Ï¡£
+è‡³æ­¤å…³äºSpring Boot Actuatoræä¾›çš„æ‰€æœ‰ç«¯ç‚¹ä»‹ç»å®Œæ¯•ã€‚
 
-## Ğ¡½á
+## å°ç»“
 
-±¾ÎÄÍ¨¹ı¶ÔSpring Boot ActuatorÌá¹©ËùÓĞ¶Ëµã¹¹½¨ÊµÀı²¢ÑİÊ¾½á¹û£¬±¾ÎÄ´ó¶àÊıÄÚÈİºÍÊµÀı¶¼ÊÇÈ«ÍøµÚÒ»ÊÖ×ÊÁÏ¡£¸Ã¿ò¼Ü¶ÔÅÅ²éÏßÉÏÎÊÌâ£¬ĞÔÄÜÓÅ»¯µÈ¶¼ÓĞ¼«´óµÄ°ïÖú¡£¶øÔÚĞ´±¾ÎÄµÄ¹ı³ÌÖĞÒ²Ô½À´Ô½¾ªÌ¾ActuatorµÄ¹¦ÄÜÖ®Ç¿´ó£¬Ç¿ÁÒÍÆ¼öÓÃÆğÀ´¡£
+æœ¬æ–‡é€šè¿‡å¯¹Spring Boot Actuatoræä¾›æ‰€æœ‰ç«¯ç‚¹æ„å»ºå®ä¾‹å¹¶æ¼”ç¤ºç»“æœï¼Œæœ¬æ–‡å¤§å¤šæ•°å†…å®¹å’Œå®ä¾‹éƒ½æ˜¯å…¨ç½‘ç¬¬ä¸€æ‰‹èµ„æ–™ã€‚è¯¥æ¡†æ¶å¯¹æ’æŸ¥çº¿ä¸Šé—®é¢˜ï¼Œæ€§èƒ½ä¼˜åŒ–ç­‰éƒ½æœ‰æå¤§çš„å¸®åŠ©ã€‚è€Œåœ¨å†™æœ¬æ–‡çš„è¿‡ç¨‹ä¸­ä¹Ÿè¶Šæ¥è¶ŠæƒŠå¹Actuatorçš„åŠŸèƒ½ä¹‹å¼ºå¤§ï¼Œå¼ºçƒˆæ¨èç”¨èµ·æ¥ã€‚
 
-## ²Î¿¼Á´½Ó
+## å‚è€ƒé“¾æ¥
 
-×÷Õß£º³ÌĞòĞÂÊÓ½ç
-Á´½Ó£ºhttps://juejin.cn/post/6984550846876876814
-À´Ô´£ºÏ¡ÍÁ¾ò½ğ
-Öø×÷È¨¹é×÷ÕßËùÓĞ¡£ÉÌÒµ×ªÔØÇëÁªÏµ×÷Õß»ñµÃÊÚÈ¨£¬·ÇÉÌÒµ×ªÔØÇë×¢Ã÷³ö´¦¡£
+ä½œè€…ï¼šç¨‹åºæ–°è§†ç•Œ
+é“¾æ¥ï¼šhttps://juejin.cn/post/6984550846876876814
+æ¥æºï¼šç¨€åœŸæ˜é‡‘
+è‘—ä½œæƒå½’ä½œè€…æ‰€æœ‰ã€‚å•†ä¸šè½¬è½½è¯·è”ç³»ä½œè€…è·å¾—æˆæƒï¼Œéå•†ä¸šè½¬è½½è¯·æ³¨æ˜å‡ºå¤„ã€‚
 

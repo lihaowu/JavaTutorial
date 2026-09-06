@@ -1,28 +1,28 @@
-## ÕªÒª
+## æ‘˜è¦
 
-Spring Boot Admin ¿ÉÒÔ¶ÔSpringBootÓ¦ÓÃµÄ¸÷ÏîÖ¸±ê½øĞĞ¼à¿Ø£¬¿ÉÒÔ×÷ÎªÎ¢·şÎñ¼Ü¹¹ÖĞµÄ¼à¿ØÖĞĞÄÀ´Ê¹ÓÃ£¬±¾ÎÄ½«¶ÔÆäÓÃ·¨½øĞĞÏêÏ¸½éÉÜ¡£
+Spring Boot Admin å¯ä»¥å¯¹SpringBootåº”ç”¨çš„å„é¡¹æŒ‡æ ‡è¿›è¡Œç›‘æ§ï¼Œå¯ä»¥ä½œä¸ºå¾®æœåŠ¡æ¶æ„ä¸­çš„ç›‘æ§ä¸­å¿ƒæ¥ä½¿ç”¨ï¼Œæœ¬æ–‡å°†å¯¹å…¶ç”¨æ³•è¿›è¡Œè¯¦ç»†ä»‹ç»ã€‚
 
-## Spring Boot Admin ¼ò½é
+## Spring Boot Admin ç®€ä»‹
 
-SpringBootÓ¦ÓÃ¿ÉÒÔÍ¨¹ıActuatorÀ´±©Â¶Ó¦ÓÃÔËĞĞ¹ı³ÌÖĞµÄ¸÷ÏîÖ¸±ê£¬Spring Boot AdminÍ¨¹ıÕâĞ©Ö¸±êÀ´¼à¿ØSpringBootÓ¦ÓÃ£¬È»ºóÍ¨¹ıÍ¼ĞÎ»¯½çÃæ³ÊÏÖ³öÀ´¡£Spring Boot Admin²»½ö¿ÉÒÔ¼à¿Øµ¥ÌåÓ¦ÓÃ£¬»¹¿ÉÒÔºÍSpring CloudµÄ×¢²áÖĞĞÄÏà½áºÏÀ´¼à¿ØÎ¢·şÎñÓ¦ÓÃ¡£
+SpringBootåº”ç”¨å¯ä»¥é€šè¿‡Actuatoræ¥æš´éœ²åº”ç”¨è¿è¡Œè¿‡ç¨‹ä¸­çš„å„é¡¹æŒ‡æ ‡ï¼ŒSpring Boot Adminé€šè¿‡è¿™äº›æŒ‡æ ‡æ¥ç›‘æ§SpringBootåº”ç”¨ï¼Œç„¶åé€šè¿‡å›¾å½¢åŒ–ç•Œé¢å‘ˆç°å‡ºæ¥ã€‚Spring Boot Adminä¸ä»…å¯ä»¥ç›‘æ§å•ä½“åº”ç”¨ï¼Œè¿˜å¯ä»¥å’ŒSpring Cloudçš„æ³¨å†Œä¸­å¿ƒç›¸ç»“åˆæ¥ç›‘æ§å¾®æœåŠ¡åº”ç”¨ã€‚
 
-Spring Boot Admin ¿ÉÒÔÌá¹©Ó¦ÓÃµÄÒÔÏÂ¼à¿ØĞÅÏ¢£º
+Spring Boot Admin å¯ä»¥æä¾›åº”ç”¨çš„ä»¥ä¸‹ç›‘æ§ä¿¡æ¯ï¼š
 
-*   ¼à¿ØÓ¦ÓÃÔËĞĞ¹ı³ÌÖĞµÄ¸ÅÀÀĞÅÏ¢£»
-*   ¶ÈÁ¿Ö¸±êĞÅÏ¢£¬±ÈÈçJVM¡¢Tomcat¼°½ø³ÌĞÅÏ¢£»
-*   »·¾³±äÁ¿ĞÅÏ¢£¬±ÈÈçÏµÍ³ÊôĞÔ¡¢ÏµÍ³»·¾³±äÁ¿ÒÔ¼°Ó¦ÓÃÅäÖÃĞÅÏ¢£»
-*   ²é¿´ËùÓĞ´´½¨µÄBeanĞÅÏ¢£»
-*   ²é¿´Ó¦ÓÃÖĞµÄËùÓĞÅäÖÃĞÅÏ¢£»
-*   ²é¿´Ó¦ÓÃÔËĞĞÈÕÖ¾ĞÅÏ¢£»
-*   ²é¿´JVMĞÅÏ¢£»
-*   ²é¿´¿ÉÒÔ·ÃÎÊµÄWeb¶Ëµã£»
-*   ²é¿´HTTP¸ú×ÙĞÅÏ¢¡£
+*   ç›‘æ§åº”ç”¨è¿è¡Œè¿‡ç¨‹ä¸­çš„æ¦‚è§ˆä¿¡æ¯ï¼›
+*   åº¦é‡æŒ‡æ ‡ä¿¡æ¯ï¼Œæ¯”å¦‚JVMã€TomcatåŠè¿›ç¨‹ä¿¡æ¯ï¼›
+*   ç¯å¢ƒå˜é‡ä¿¡æ¯ï¼Œæ¯”å¦‚ç³»ç»Ÿå±æ€§ã€ç³»ç»Ÿç¯å¢ƒå˜é‡ä»¥åŠåº”ç”¨é…ç½®ä¿¡æ¯ï¼›
+*   æŸ¥çœ‹æ‰€æœ‰åˆ›å»ºçš„Beanä¿¡æ¯ï¼›
+*   æŸ¥çœ‹åº”ç”¨ä¸­çš„æ‰€æœ‰é…ç½®ä¿¡æ¯ï¼›
+*   æŸ¥çœ‹åº”ç”¨è¿è¡Œæ—¥å¿—ä¿¡æ¯ï¼›
+*   æŸ¥çœ‹JVMä¿¡æ¯ï¼›
+*   æŸ¥çœ‹å¯ä»¥è®¿é—®çš„Webç«¯ç‚¹ï¼›
+*   æŸ¥çœ‹HTTPè·Ÿè¸ªä¿¡æ¯ã€‚
 
-## ´´½¨admin-serverÄ£¿é
+## åˆ›å»ºadmin-serveræ¨¡å—
 
-> ÕâÀïÎÒÃÇ´´½¨Ò»¸öadmin-serverÄ£¿éÀ´×÷Îª¼à¿ØÖĞĞÄÑİÊ¾Æä¹¦ÄÜ¡£
+> è¿™é‡Œæˆ‘ä»¬åˆ›å»ºä¸€ä¸ªadmin-serveræ¨¡å—æ¥ä½œä¸ºç›‘æ§ä¸­å¿ƒæ¼”ç¤ºå…¶åŠŸèƒ½ã€‚
 
-*   ÔÚpom.xmlÖĞÌí¼ÓÏà¹ØÒÀÀµ£º
+*   åœ¨pom.xmlä¸­æ·»åŠ ç›¸å…³ä¾èµ–ï¼š
 
 
 
@@ -40,7 +40,7 @@ Spring Boot Admin ¿ÉÒÔÌá¹©Ó¦ÓÃµÄÒÔÏÂ¼à¿ØĞÅÏ¢£º
 
 ````
 
-*   ÔÚapplication.ymlÖĞ½øĞĞÅäÖÃ£º
+*   åœ¨application.ymlä¸­è¿›è¡Œé…ç½®ï¼š
 
 
 
@@ -53,7 +53,7 @@ server:
  port: 9301
 ````
 
-*   ÔÚÆô¶¯ÀàÉÏÌí¼Ó@EnableAdminServerÀ´ÆôÓÃadmin-server¹¦ÄÜ£º
+*   åœ¨å¯åŠ¨ç±»ä¸Šæ·»åŠ @EnableAdminServeræ¥å¯ç”¨admin-serveråŠŸèƒ½ï¼š
 
 
 
@@ -70,11 +70,11 @@ public class AdminServerApplication {
 }
 ````
 
-## ´´½¨admin-clientÄ£¿é
+## åˆ›å»ºadmin-clientæ¨¡å—
 
-> ÕâÀïÎÒÃÇ´´½¨Ò»¸öadmin-clientÄ£¿é×÷Îª¿Í»§¶Ë×¢²áµ½admin-server¡£
+> è¿™é‡Œæˆ‘ä»¬åˆ›å»ºä¸€ä¸ªadmin-clientæ¨¡å—ä½œä¸ºå®¢æˆ·ç«¯æ³¨å†Œåˆ°admin-serverã€‚
 
-*   ÔÚpom.xmlÖĞÌí¼ÓÏà¹ØÒÀÀµ£º
+*   åœ¨pom.xmlä¸­æ·»åŠ ç›¸å…³ä¾èµ–ï¼š
 
 
 
@@ -89,7 +89,7 @@ public class AdminServerApplication {
 </dependency>
 ````
 
-*   ÔÚapplication.ymlÖĞ½øĞĞÅäÖÃ£º
+*   åœ¨application.ymlä¸­è¿›è¡Œé…ç½®ï¼š
 
 
 
@@ -105,7 +105,7 @@ spring:
  boot:
  admin:
  client:
- url: http://localhost:9301 #ÅäÖÃadmin-serverµØÖ·
+ url: http://localhost:9301 #é…ç½®admin-serveråœ°å€
 server:
  port: 9305
 management:
@@ -117,14 +117,14 @@ management:
  health:
  show-details: always
 logging:
- file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø
+ file: admin-client.log #æ·»åŠ å¼€å¯adminçš„æ—¥å¿—ç›‘æ§
 ```
 
-*   Æô¶¯admin-serverºÍadmin-client·şÎñ¡£
+*   å¯åŠ¨admin-serverå’Œadmin-clientæœåŠ¡ã€‚
 
-## ¼à¿ØĞÅÏ¢ÑİÊ¾
+## ç›‘æ§ä¿¡æ¯æ¼”ç¤º
 
-*   ·ÃÎÊÈçÏÂµØÖ·´ò¿ªSpring Boot AdminµÄÖ÷Ò³£º[http://localhost:9301](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A9301 "http://localhost:9301")
+*   è®¿é—®å¦‚ä¸‹åœ°å€æ‰“å¼€Spring Boot Adminçš„ä¸»é¡µï¼š[http://localhost:9301](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A9301 "http://localhost:9301")
 
 ![image-20230531001002163](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001002163.png)
 
@@ -132,9 +132,9 @@ logging:
 
 
 
-*   µã»÷wallboard°´Å¥£¬Ñ¡Ôñadmin-client²é¿´¼à¿ØĞÅÏ¢£»
+*   ç‚¹å‡»wallboardæŒ‰é’®ï¼Œé€‰æ‹©admin-clientæŸ¥çœ‹ç›‘æ§ä¿¡æ¯ï¼›
 
-*   ¼à¿ØĞÅÏ¢¸ÅÀÀ£»
+*   ç›‘æ§ä¿¡æ¯æ¦‚è§ˆï¼›
 
 ![image-20230531001023644](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001023644.png)
 
@@ -142,7 +142,7 @@ logging:
 
 
 
-*   ¶ÈÁ¿Ö¸±êĞÅÏ¢£¬±ÈÈçJVM¡¢Tomcat¼°½ø³ÌĞÅÏ¢£»
+*   åº¦é‡æŒ‡æ ‡ä¿¡æ¯ï¼Œæ¯”å¦‚JVMã€TomcatåŠè¿›ç¨‹ä¿¡æ¯ï¼›
 
 ![image-20230531001053279](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001053279.png)
 
@@ -150,7 +150,7 @@ logging:
 
 
 
-*   »·¾³±äÁ¿ĞÅÏ¢£¬±ÈÈçÏµÍ³ÊôĞÔ¡¢ÏµÍ³»·¾³±äÁ¿ÒÔ¼°Ó¦ÓÃÅäÖÃĞÅÏ¢£»
+*   ç¯å¢ƒå˜é‡ä¿¡æ¯ï¼Œæ¯”å¦‚ç³»ç»Ÿå±æ€§ã€ç³»ç»Ÿç¯å¢ƒå˜é‡ä»¥åŠåº”ç”¨é…ç½®ä¿¡æ¯ï¼›
 
 ![image-20230531001103093](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001103093.png)
 
@@ -158,7 +158,7 @@ logging:
 
 
 
-*   ²é¿´ËùÓĞ´´½¨µÄBeanĞÅÏ¢£»
+*   æŸ¥çœ‹æ‰€æœ‰åˆ›å»ºçš„Beanä¿¡æ¯ï¼›
 
 ![image-20230531001111221](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001111221.png)
 
@@ -166,7 +166,7 @@ logging:
 
 
 
-*   ²é¿´Ó¦ÓÃÖĞµÄËùÓĞÅäÖÃĞÅÏ¢£»
+*   æŸ¥çœ‹åº”ç”¨ä¸­çš„æ‰€æœ‰é…ç½®ä¿¡æ¯ï¼›
 
 ![image-20230531001124678](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001124678.png)
 
@@ -174,19 +174,19 @@ logging:
 
 
 
-*   ²é¿´ÈÕÖ¾ĞÅÏ¢£¬ĞèÒªÌí¼ÓÒÔÏÂÅäÖÃ²ÅÄÜ¿ªÆô£»
+*   æŸ¥çœ‹æ—¥å¿—ä¿¡æ¯ï¼Œéœ€è¦æ·»åŠ ä»¥ä¸‹é…ç½®æ‰èƒ½å¼€å¯ï¼›
 
 
 
 `logging:
-file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø`
+file: admin-client.log #æ·»åŠ å¼€å¯adminçš„æ—¥å¿—ç›‘æ§`
 
 ![image-20230531001136184](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001136184.png)
 
 
 
 
-*   ²é¿´JVMĞÅÏ¢£»
+*   æŸ¥çœ‹JVMä¿¡æ¯ï¼›
 
 ![image-20230531001144614](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001144614.png)
 
@@ -194,7 +194,7 @@ file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø`
 
 
 
-*   ²é¿´¿ÉÒÔ·ÃÎÊµÄWeb¶Ëµã£»
+*   æŸ¥çœ‹å¯ä»¥è®¿é—®çš„Webç«¯ç‚¹ï¼›
 
 ![image-20230531001156191](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001156191.png)
 
@@ -202,7 +202,7 @@ file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø`
 
 
 
-*   ²é¿´HTTP¸ú×ÙĞÅÏ¢£»
+*   æŸ¥çœ‹HTTPè·Ÿè¸ªä¿¡æ¯ï¼›
 
 ![image-20230531001206364](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001206364.png)
 
@@ -210,13 +210,13 @@ file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø`
 
 
 
-## ½áºÏ×¢²áÖĞĞÄÊ¹ÓÃ
+## ç»“åˆæ³¨å†Œä¸­å¿ƒä½¿ç”¨
 
-> Spring Boot Admin½áºÏSpring Cloud ×¢²áÖĞĞÄÊ¹ÓÃ£¬Ö»Ğè½«admin-serverºÍ×¢²áÖĞĞÄÕûºÏ¼´¿É£¬admin-server »á×Ô¶¯´Ó×¢²áÖĞĞÄ»ñÈ¡·şÎñÁĞ±í£¬È»ºó°¤¸ö»ñÈ¡¼à¿ØĞÅÏ¢¡£ÕâÀïÒÔEureka×¢²áÖĞĞÄÎªÀıÀ´½éÉÜÏÂ¸Ã¹¦ÄÜ¡£
+> Spring Boot Adminç»“åˆSpring Cloud æ³¨å†Œä¸­å¿ƒä½¿ç”¨ï¼Œåªéœ€å°†admin-serverå’Œæ³¨å†Œä¸­å¿ƒæ•´åˆå³å¯ï¼Œadmin-server ä¼šè‡ªåŠ¨ä»æ³¨å†Œä¸­å¿ƒè·å–æœåŠ¡åˆ—è¡¨ï¼Œç„¶åæŒ¨ä¸ªè·å–ç›‘æ§ä¿¡æ¯ã€‚è¿™é‡Œä»¥Eurekaæ³¨å†Œä¸­å¿ƒä¸ºä¾‹æ¥ä»‹ç»ä¸‹è¯¥åŠŸèƒ½ã€‚
 
-### ĞŞ¸Äadmin-server
+### ä¿®æ”¹admin-server
 
-*   ÔÚpom.xmlÖĞÌí¼ÓÏà¹ØÒÀÀµ£º
+*   åœ¨pom.xmlä¸­æ·»åŠ ç›¸å…³ä¾èµ–ï¼š
 
 
 
@@ -228,7 +228,7 @@ file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø`
 </dependency>
 ````
 
-*   ÔÚapplication-eureka.ymlÖĞ½øĞĞÅäÖÃ£¬Ö»ĞèÌí¼Ó×¢²áÖĞĞÄÅäÖÃ¼´¿É£º
+*   åœ¨application-eureka.ymlä¸­è¿›è¡Œé…ç½®ï¼Œåªéœ€æ·»åŠ æ³¨å†Œä¸­å¿ƒé…ç½®å³å¯ï¼š
 
 
 
@@ -247,7 +247,7 @@ eureka:
  defaultZone: http://localhost:8001/eureka/
 ````
 
-*   ÔÚÆô¶¯ÀàÉÏÌí¼Ó@EnableDiscoveryClientÀ´ÆôÓÃ·şÎñ×¢²á¹¦ÄÜ£º
+*   åœ¨å¯åŠ¨ç±»ä¸Šæ·»åŠ @EnableDiscoveryClientæ¥å¯ç”¨æœåŠ¡æ³¨å†ŒåŠŸèƒ½ï¼š
 
 
 
@@ -266,9 +266,9 @@ public class AdminServerApplication {
 }
 ````
 
-### ĞŞ¸Äadmin-client
+### ä¿®æ”¹admin-client
 
-*   ÔÚpom.xmlÖĞÌí¼ÓÏà¹ØÒÀÀµ£º
+*   åœ¨pom.xmlä¸­æ·»åŠ ç›¸å…³ä¾èµ–ï¼š
 
 
 
@@ -279,7 +279,7 @@ public class AdminServerApplication {
 </dependency>
 ````
 
-*   ÔÚapplication-eureka.ymlÖĞ½øĞĞÅäÖÃ£¬É¾³ıÔ­À´µÄadmin-serverµØÖ·ÅäÖÃ£¬Ìí¼Ó×¢²áÖĞĞÄÅäÖÃ¼´¿É£º
+*   åœ¨application-eureka.ymlä¸­è¿›è¡Œé…ç½®ï¼Œåˆ é™¤åŸæ¥çš„admin-serveråœ°å€é…ç½®ï¼Œæ·»åŠ æ³¨å†Œä¸­å¿ƒé…ç½®å³å¯ï¼š
 
 
 
@@ -300,7 +300,7 @@ management:
  health:
  show-details: always
 logging:
- file: admin-client.log #Ìí¼Ó¿ªÆôadminµÄÈÕÖ¾¼à¿Ø
+ file: admin-client.log #æ·»åŠ å¼€å¯adminçš„æ—¥å¿—ç›‘æ§
 eureka:
  client:
  register-with-eureka: true
@@ -309,7 +309,7 @@ eureka:
  defaultZone: http://localhost:8001/eureka/
 ```
 
-*   ÔÚÆô¶¯ÀàÉÏÌí¼Ó@EnableDiscoveryClientÀ´ÆôÓÃ·şÎñ×¢²á¹¦ÄÜ£º
+*   åœ¨å¯åŠ¨ç±»ä¸Šæ·»åŠ @EnableDiscoveryClientæ¥å¯ç”¨æœåŠ¡æ³¨å†ŒåŠŸèƒ½ï¼š
 
 
 
@@ -327,27 +327,27 @@ public class AdminClientApplication {
 }
 ```
 
-### ¹¦ÄÜÑİÊ¾
+### åŠŸèƒ½æ¼”ç¤º
 
-*   Æô¶¯eureka-server£¬Ê¹ÓÃapplication-eureka.ymlÅäÖÃÆô¶¯admin-server£¬admin-client£»
+*   å¯åŠ¨eureka-serverï¼Œä½¿ç”¨application-eureka.ymlé…ç½®å¯åŠ¨admin-serverï¼Œadmin-clientï¼›
 
-*   ²é¿´×¢²áÖĞĞÄ·¢ÏÖ·şÎñ¾ùÒÑ×¢²á£º[http://localhost:8001/](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8001%2F "http://localhost:8001/")
+*   æŸ¥çœ‹æ³¨å†Œä¸­å¿ƒå‘ç°æœåŠ¡å‡å·²æ³¨å†Œï¼š[http://localhost:8001/](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A8001%2F "http://localhost:8001/")
 
 ![image-20230531001221519](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001221519.png)
 
 
-*   ²é¿´Spring Boot Admin Ö÷Ò³·¢ÏÖ¿ÉÒÔ¿´µ½·şÎñĞÅÏ¢£º[http://localhost:9301](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A9301 "http://localhost:9301")
+*   æŸ¥çœ‹Spring Boot Admin ä¸»é¡µå‘ç°å¯ä»¥çœ‹åˆ°æœåŠ¡ä¿¡æ¯ï¼š[http://localhost:9301](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A9301 "http://localhost:9301")
 
 ![image-20230531001232048](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001232048.png)
 
 
-## Ìí¼ÓµÇÂ¼ÈÏÖ¤
+## æ·»åŠ ç™»å½•è®¤è¯
 
-> ÎÒÃÇ¿ÉÒÔÍ¨¹ı¸øadmin-serverÌí¼ÓSpring SecurityÖ§³ÖÀ´»ñµÃµÇÂ¼ÈÏÖ¤¹¦ÄÜ¡£
+> æˆ‘ä»¬å¯ä»¥é€šè¿‡ç»™admin-serveræ·»åŠ Spring Securityæ”¯æŒæ¥è·å¾—ç™»å½•è®¤è¯åŠŸèƒ½ã€‚
 
-### ´´½¨admin-security-serverÄ£¿é
+### åˆ›å»ºadmin-security-serveræ¨¡å—
 
-*   ÔÚpom.xmlÖĞÌí¼ÓÏà¹ØÒÀÀµ£º
+*   åœ¨pom.xmlä¸­æ·»åŠ ç›¸å…³ä¾èµ–ï¼š
 
 
 
@@ -371,7 +371,7 @@ public class AdminClientApplication {
 </dependency>
 ```
 
-*   ÔÚapplication.ymlÖĞ½øĞĞÅäÖÃ£¬ÅäÖÃµÇÂ¼ÓÃ»§ÃûºÍÃÜÂë£¬ºöÂÔadmin-security-serverµÄ¼à¿ØĞÅÏ¢£º
+*   åœ¨application.ymlä¸­è¿›è¡Œé…ç½®ï¼Œé…ç½®ç™»å½•ç”¨æˆ·åå’Œå¯†ç ï¼Œå¿½ç•¥admin-security-serverçš„ç›‘æ§ä¿¡æ¯ï¼š
 
 
 
@@ -381,11 +381,11 @@ public class AdminClientApplication {
 spring:
  application:
  name: admin-security-server
- security: # ÅäÖÃµÇÂ¼ÓÃ»§ÃûºÍÃÜÂë
+ security: # é…ç½®ç™»å½•ç”¨æˆ·åå’Œå¯†ç 
  user:
  name: macro
  password: 123456
- boot:  # ²»ÏÔÊ¾admin-security-serverµÄ¼à¿ØĞÅÏ¢
+ boot:  # ä¸æ˜¾ç¤ºadmin-security-serverçš„ç›‘æ§ä¿¡æ¯
  admin:
  discovery:
  ignored-services: ${spring.application.name}
@@ -399,7 +399,7 @@ eureka:
  defaultZone: http://localhost:8001/eureka/
 ```
 
-*   ¶ÔSpringSecurity½øĞĞÅäÖÃ£¬ÒÔ±ãadmin-client¿ÉÒÔ×¢²á£º
+*   å¯¹SpringSecurityè¿›è¡Œé…ç½®ï¼Œä»¥ä¾¿admin-clientå¯ä»¥æ³¨å†Œï¼š
 
 
 
@@ -407,7 +407,7 @@ eureka:
 
 scss
 
-¸´ÖÆ´úÂë
+å¤åˆ¶ä»£ç 
 
 
 
@@ -432,20 +432,20 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
  successHandler.setDefaultTargetUrl(adminContextPath + "/");
 
  http.authorizeRequests()
- //1.ÅäÖÃËùÓĞ¾²Ì¬×ÊÔ´ºÍµÇÂ¼Ò³¿ÉÒÔ¹«¿ª·ÃÎÊ
+ //1.é…ç½®æ‰€æœ‰é™æ€èµ„æºå’Œç™»å½•é¡µå¯ä»¥å…¬å¼€è®¿é—®
  .antMatchers(adminContextPath + "/assets/**").permitAll()
  .antMatchers(adminContextPath + "/login").permitAll()
  .anyRequest().authenticated()
  .and()
- //2.ÅäÖÃµÇÂ¼ºÍµÇ³öÂ·¾¶
+ //2.é…ç½®ç™»å½•å’Œç™»å‡ºè·¯å¾„
  .formLogin().loginPage(adminContextPath + "/login").successHandler(successHandler).and()
  .logout().logoutUrl(adminContextPath + "/logout").and()
- //3.¿ªÆôhttp basicÖ§³Ö£¬admin-client×¢²áÊ±ĞèÒªÊ¹ÓÃ
+ //3.å¼€å¯http basicæ”¯æŒï¼Œadmin-clientæ³¨å†Œæ—¶éœ€è¦ä½¿ç”¨
  .httpBasic().and()
  .csrf()
- //4.¿ªÆô»ùÓÚcookieµÄcsrf±£»¤
+ //4.å¼€å¯åŸºäºcookieçš„csrfä¿æŠ¤
  .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
- //5.ºöÂÔÕâĞ©Â·¾¶µÄcsrf±£»¤ÒÔ±ãadmin-client×¢²á
+ //5.å¿½ç•¥è¿™äº›è·¯å¾„çš„csrfä¿æŠ¤ä»¥ä¾¿admin-clientæ³¨å†Œ
  .ignoringAntMatchers(
  adminContextPath + "/instances",
  adminContextPath + "/actuator/**"
@@ -454,7 +454,7 @@ public class SecuritySecureConfig extends WebSecurityConfigurerAdapter {
 }
 ```
 
-*   ĞŞ¸ÄÆô¶¯Àà£¬¿ªÆôAdminServer¼°×¢²á·¢ÏÖ¹¦ÄÜ£º
+*   ä¿®æ”¹å¯åŠ¨ç±»ï¼Œå¼€å¯AdminServeråŠæ³¨å†Œå‘ç°åŠŸèƒ½ï¼š
 
 
 
@@ -472,7 +472,7 @@ public class AdminSecurityServerApplication {
 }
 ```
 
-*   Æô¶¯eureka-server£¬admin-security-server£¬·ÃÎÊSpring Boot Admin Ö÷Ò³·¢ÏÖĞèÒªµÇÂ¼²ÅÄÜ·ÃÎÊ£º[http://localhost:9301](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A9301 "http://localhost:9301")
+*   å¯åŠ¨eureka-serverï¼Œadmin-security-serverï¼Œè®¿é—®Spring Boot Admin ä¸»é¡µå‘ç°éœ€è¦ç™»å½•æ‰èƒ½è®¿é—®ï¼š[http://localhost:9301](https://link.juejin.cn?target=http%3A%2F%2Flocalhost%3A9301 "http://localhost:9301")
 
 ![image-20230531001242361](https://java-tutorial.oss-cn-shanghai.aliyuncs.com/image-20230531001242361.png)
 
@@ -480,7 +480,7 @@ public class AdminSecurityServerApplication {
 
 
 
-## Ê¹ÓÃµ½µÄÄ£¿é
+## ä½¿ç”¨åˆ°çš„æ¨¡å—
 
 
 
@@ -488,8 +488,8 @@ public class AdminSecurityServerApplication {
 
 ```
 springcloud-learning
-©À©¤©¤ eureka-server -- eureka×¢²áÖĞĞÄ
-©À©¤©¤ admin-server -- admin¼à¿ØÖĞĞÄ·şÎñ
-©À©¤©¤ admin-client -- admin¼à¿ØÖĞĞÄ¼à¿ØµÄÓ¦ÓÃ·şÎñ
-©¸©¤©¤ admin-security-server -- ´øµÇÂ¼ÈÏÖ¤µÄadmin¼à¿ØÖĞĞÄ·şÎñ` 
+â”œâ”€â”€ eureka-server -- eurekaæ³¨å†Œä¸­å¿ƒ
+â”œâ”€â”€ admin-server -- adminç›‘æ§ä¸­å¿ƒæœåŠ¡
+â”œâ”€â”€ admin-client -- adminç›‘æ§ä¸­å¿ƒç›‘æ§çš„åº”ç”¨æœåŠ¡
+â””â”€â”€ admin-security-server -- å¸¦ç™»å½•è®¤è¯çš„adminç›‘æ§ä¸­å¿ƒæœåŠ¡` 
 ```
